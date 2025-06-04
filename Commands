@@ -1,0 +1,40 @@
+
+1. bringup
+bringup
+
+#localization
+2.
+ros2 launch particle_filter localize_launch.py \
+  map:=/home/meric/f1tenth_ws/maps/meric.yaml \
+  params_file:=/home/meric/f1tenth_ws/src/particle_filter/config/localize.yaml \
+  use_sim_time:=False \
+  autostart:=True
+#rviz2
+3.
+rviz2 -d $(ros2 pkg prefix nav2_bringup)/share/nav2_bringup/rviz/nav2_default_view.rviz
+
+#initial pose
+4.
+ros2 service call /reinitialize_global_localization std_srvs/srv/Empty {}
+
+#rosbag record
+5.
+ros2 bag record -a
+
+#rosbag play
+6.
+ros2 bag play rosbag2_2025_04_30-15_25_08/
+
+
+  
+  ros2 launch particle_filter localize_launch.py \
+  map:=/home/meric/f1tenth_ws/maps/oksang.yaml \
+  params_file:=/home/meric/f1tenth_ws/src/particle_filter/config/localize.yaml \
+  use_sim_time:=False \
+  autostart:=True
+
+
+ros2 service call /slam_toolbox/save_map slam_toolbox/srv/SaveMap
+
+
+
