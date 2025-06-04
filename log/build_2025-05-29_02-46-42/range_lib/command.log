@@ -1,0 +1,4 @@
+Invoking command in '/home/meric/f1tenth_ws/build/range_lib': /usr/bin/cmake --build /home/meric/f1tenth_ws/build/range_lib -- -j6 -l6
+Invoked command in '/home/meric/f1tenth_ws/build/range_lib' returned '0': /usr/bin/cmake --build /home/meric/f1tenth_ws/build/range_lib -- -j6 -l6
+Invoking command in '/home/meric/f1tenth_ws/build/range_lib': /usr/bin/cmake --install /home/meric/f1tenth_ws/build/range_lib
+Invoked command in '/home/meric/f1tenth_ws/build/range_lib' returned '0': /usr/bin/cmake --install /home/meric/f1tenth_ws/build/range_lib

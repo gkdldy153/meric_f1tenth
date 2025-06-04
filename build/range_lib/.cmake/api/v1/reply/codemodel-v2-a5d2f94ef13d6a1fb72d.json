@@ -1,0 +1,111 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "vendor/gflags",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "vendor/gflags",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "range_lib",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gflags",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "gflags_nothreads_static::@8a623e650377f41dbffb",
+					"jsonFile" : "target-gflags_nothreads_static-Release-5f8380e9f097cd6c8886.json",
+					"name" : "gflags_nothreads_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gflags_static::@8a623e650377f41dbffb",
+					"jsonFile" : "target-gflags_static-Release-2164b1820979675605a5.json",
+					"name" : "gflags_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "range_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-range_lib-Release-0bb0acd518d2aa913ce1.json",
+					"name" : "range_lib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/meric/f1tenth_ws/build/range_lib",
+		"source" : "/home/meric/f1tenth_ws/range_libc"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

@@ -1,0 +1,9 @@
+source;share/range_lib/hook/cmake_prefix_path.ps1
+source;share/range_lib/hook/cmake_prefix_path.dsv
+source;share/range_lib/hook/cmake_prefix_path.sh
+source;share/range_lib/hook/path.ps1
+source;share/range_lib/hook/path.dsv
+source;share/range_lib/hook/path.sh
+source;share/range_lib/hook/pythonscriptspath.ps1
+source;share/range_lib/hook/pythonscriptspath.dsv
+source;share/range_lib/hook/pythonscriptspath.sh

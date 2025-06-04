@@ -1,0 +1,12 @@
+[1.184s] Invoking command in '/home/meric/f1tenth_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/home/meric/install/f1tenth_stack:/home/meric/install/joy_teleop:/home/meric/install/mouse_teleop:/home/meric/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/meric/f1tenth_ws/build/pure_pursuit -- -j6 -l6
+[1.300s] [35m[1mScanning dependencies of target pure_pursuit[0m
+[1.327s] [ 50%] Built target waypoint_visualizer
+[1.397s] [ 75%] [32mBuilding CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o[0m
+[7.550s] [01m[K/home/meric/f1tenth_ws/src/pure_pursuit/src/pure_pursuit.cpp:[m[K In member function ‘[01m[Kvoid PurePursuit::publish_message(double)[m[K’:
+[7.550s] [01m[K/home/meric/f1tenth_ws/src/pure_pursuit/src/pure_pursuit.cpp:243:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclamp[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[7.550s]   243 |     steering_angle = std::[01;31m[Kclamp[m[K(
+[7.550s]       |                           [01;31m[K^~~~~[m[K
+[12.341s] make[2]: *** [CMakeFiles/pure_pursuit.dir/build.make:63: CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o] Error 1
+[12.342s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/pure_pursuit.dir/all] Error 2
+[12.342s] make: *** [Makefile:141: all] Error 2
+[12.348s] Invoked command in '/home/meric/f1tenth_ws/build/pure_pursuit' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/home/meric/install/f1tenth_stack:/home/meric/install/joy_teleop:/home/meric/install/mouse_teleop:/home/meric/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/meric/f1tenth_ws/build/pure_pursuit -- -j6 -l6

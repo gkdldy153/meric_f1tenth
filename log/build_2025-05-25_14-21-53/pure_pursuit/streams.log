@@ -1,0 +1,32 @@
+[1.087s] Invoking command in '/home/meric/f1tenth_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/sim_ws/install/stanley_avoidance:/home/meric/sim_ws/install/slam:/home/meric/sim_ws/install/navigation:/home/meric/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/meric/f1tenth_ws/build/pure_pursuit -- -j6 -l6
+[1.253s] [ 50%] Built target waypoint_visualizer
+[1.259s] [100%] Built target pure_pursuit
+[1.368s] Invoked command in '/home/meric/f1tenth_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/sim_ws/install/stanley_avoidance:/home/meric/sim_ws/install/slam:/home/meric/sim_ws/install/navigation:/home/meric/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/meric/f1tenth_ws/build/pure_pursuit -- -j6 -l6
+[1.375s] Invoking command in '/home/meric/f1tenth_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/sim_ws/install/stanley_avoidance:/home/meric/sim_ws/install/slam:/home/meric/sim_ws/install/navigation:/home/meric/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/meric/f1tenth_ws/build/pure_pursuit
+[1.462s] -- Install configuration: ""
+[1.462s] -- Up-to-date: /home/meric/f1tenth_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit
+[1.462s] -- Up-to-date: /home/meric/f1tenth_ws/install/pure_pursuit/lib/pure_pursuit/waypoint_visualizer
+[1.463s] -- Up-to-date: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/launch
+[1.463s] -- Up-to-date: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/launch/pure_pursuit_launch.py
+[1.463s] -- Up-to-date: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/launch/sim_pure_pursuit.rviz
+[1.463s] -- Up-to-date: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/launch/sim_pure_pursuit_launch.py
+[1.463s] -- Up-to-date: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/launch/pure_pursuit.rviz
+[1.463s] -- Up-to-date: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/config
+[1.463s] -- Installing: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/config/config.yaml
+[1.464s] -- Up-to-date: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/config/sim_config.yaml
+[1.464s] -- Up-to-date: /home/meric/f1tenth_ws/install/pure_pursuit/share/ament_index/resource_index/package_run_dependencies/pure_pursuit
+[1.464s] -- Up-to-date: /home/meric/f1tenth_ws/install/pure_pursuit/share/ament_index/resource_index/parent_prefix_path/pure_pursuit
+[1.464s] -- Up-to-date: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.sh
+[1.464s] -- Up-to-date: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.dsv
+[1.465s] -- Up-to-date: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/environment/path.sh
+[1.465s] -- Up-to-date: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/environment/path.dsv
+[1.465s] -- Up-to-date: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/local_setup.bash
+[1.465s] -- Up-to-date: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/local_setup.sh
+[1.465s] -- Up-to-date: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/local_setup.zsh
+[1.465s] -- Up-to-date: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/local_setup.dsv
+[1.465s] -- Installing: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/package.dsv
+[1.465s] -- Up-to-date: /home/meric/f1tenth_ws/install/pure_pursuit/share/ament_index/resource_index/packages/pure_pursuit
+[1.466s] -- Up-to-date: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig.cmake
+[1.466s] -- Up-to-date: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig-version.cmake
+[1.466s] -- Up-to-date: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/package.xml
+[1.992s] Invoked command in '/home/meric/f1tenth_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/sim_ws/install/stanley_avoidance:/home/meric/sim_ws/install/slam:/home/meric/sim_ws/install/navigation:/home/meric/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/meric/f1tenth_ws/build/pure_pursuit

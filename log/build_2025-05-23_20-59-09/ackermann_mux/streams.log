@@ -1,0 +1,105 @@
+[0.092s] Invoking command in '/home/meric/f1tenth_ws/build/ackermann_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/navigation:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake /home/meric/f1tenth_ws/src/f1tenth_system/ackermann_mux -DCMAKE_INSTALL_PREFIX=/home/meric/f1tenth_ws/install/ackermann_mux
+[1.157s] -- The C compiler identification is GNU 9.4.0
+[1.157s] -- The CXX compiler identification is GNU 9.4.0
+[1.157s] -- Check for working C compiler: /usr/bin/cc
+[1.157s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.157s] -- Detecting C compiler ABI info
+[1.158s] -- Detecting C compiler ABI info - done
+[1.158s] -- Detecting C compile features
+[1.158s] -- Detecting C compile features - done
+[1.158s] -- Check for working CXX compiler: /usr/bin/c++
+[1.158s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.158s] -- Detecting CXX compiler ABI info
+[1.158s] -- Detecting CXX compiler ABI info - done
+[1.158s] -- Detecting CXX compile features
+[1.159s] -- Detecting CXX compile features - done
+[1.159s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.164s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.164s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.676s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.801s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.825s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.076s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.150s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.351s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.497s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.503s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.512s] -- Looking for pthread.h
+[2.700s] -- Looking for pthread.h - found
+[2.700s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.892s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.892s] -- Looking for pthread_create in pthreads
+[3.033s] -- Looking for pthread_create in pthreads - not found
+[3.037s] -- Looking for pthread_create in pthread
+[3.185s] -- Looking for pthread_create in pthread - found
+[3.190s] -- Found Threads: TRUE  
+[3.508s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[3.581s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/foxy/share/diagnostic_updater/cmake)
+[3.709s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.945s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[4.014s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[4.028s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[4.028s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.029s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[4.029s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[4.094s] -- Found PythonExtra: .so  
+[4.127s] -- Added test 'xmllint' to check XML markup files
+[4.130s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.135s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.136s] -- Configured cppcheck include dirs: /home/meric/f1tenth_ws/src/f1tenth_system/ackermann_mux/include
+[4.137s] -- Configured cppcheck exclude dirs and/or files: 
+[4.141s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.142s] -- Configured cpplint exclude dirs and/or files: 
+[4.144s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.147s] -- Added test 'lint_cmake' to check CMake code style
+[4.149s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.153s] -- Added test 'uncrustify' to check C / C++ code style
+[4.154s] -- Configured uncrustify additional arguments: 
+[4.166s] -- Configuring done
+[4.185s] -- Generating done
+[4.195s] -- Build files have been written to: /home/meric/f1tenth_ws/build/ackermann_mux
+[4.233s] Invoked command in '/home/meric/f1tenth_ws/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/navigation:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake /home/meric/f1tenth_ws/src/f1tenth_system/ackermann_mux -DCMAKE_INSTALL_PREFIX=/home/meric/f1tenth_ws/install/ackermann_mux
+[4.235s] Invoking command in '/home/meric/f1tenth_ws/build/ackermann_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/navigation:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/meric/f1tenth_ws/build/ackermann_mux -- -j6 -l6
+[4.337s] [35m[1mScanning dependencies of target ackermann_mux[0m
+[4.515s] [ 25%] [32mBuilding CXX object CMakeFiles/ackermann_mux.dir/src/ackermann_mux.cpp.o[0m
+[4.549s] [ 50%] [32mBuilding CXX object CMakeFiles/ackermann_mux.dir/src/ackermann_mux_node.cpp.o[0m
+[4.555s] [ 75%] [32mBuilding CXX object CMakeFiles/ackermann_mux.dir/src/ackermann_mux_diagnostics.cpp.o[0m
+[31.496s] [100%] [32m[1mLinking CXX executable ackermann_mux[0m
+[33.416s] [100%] Built target ackermann_mux
+[33.495s] Invoked command in '/home/meric/f1tenth_ws/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/navigation:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/meric/f1tenth_ws/build/ackermann_mux -- -j6 -l6
+[33.498s] Invoking command in '/home/meric/f1tenth_ws/build/ackermann_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/navigation:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/meric/f1tenth_ws/build/ackermann_mux
+[33.560s] -- Install configuration: ""
+[33.570s] -- Installing: /home/meric/f1tenth_ws/install/ackermann_mux/lib/ackermann_mux/ackermann_mux
+[33.578s] -- Set runtime path of "/home/meric/f1tenth_ws/install/ackermann_mux/lib/ackermann_mux/ackermann_mux" to ""
+[33.586s] -- Installing: /home/meric/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/launch
+[33.587s] -- Installing: /home/meric/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/launch/ackermann_mux_launch.py
+[33.596s] -- Installing: /home/meric/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config
+[33.597s] -- Installing: /home/meric/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config/joystick.yaml
+[33.599s] -- Installing: /home/meric/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_topics.yaml
+[33.600s] -- Installing: /home/meric/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_locks.yaml
+[33.601s] -- Installing: /home/meric/f1tenth_ws/install/ackermann_mux/include
+[33.601s] -- Installing: /home/meric/f1tenth_ws/install/ackermann_mux/include/ackermann_mux
+[33.602s] -- Installing: /home/meric/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics_status.hpp
+[33.603s] -- Installing: /home/meric/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/params_helpers.hpp
+[33.604s] -- Installing: /home/meric/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux.hpp
+[33.605s] -- Installing: /home/meric/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics.hpp
+[33.605s] -- Installing: /home/meric/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/utils.hpp
+[33.606s] -- Installing: /home/meric/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/topic_handle.hpp
+[33.607s] -- Installing: /home/meric/f1tenth_ws/install/ackermann_mux/share/ament_index/resource_index/package_run_dependencies/ackermann_mux
+[33.608s] -- Installing: /home/meric/f1tenth_ws/install/ackermann_mux/share/ament_index/resource_index/parent_prefix_path/ackermann_mux
+[33.610s] -- Installing: /home/meric/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.sh
+[33.610s] -- Installing: /home/meric/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.dsv
+[33.611s] -- Installing: /home/meric/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/path.sh
+[33.621s] -- Installing: /home/meric/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/path.dsv
+[33.622s] -- Installing: /home/meric/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.bash
+[33.623s] -- Installing: /home/meric/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.sh
+[33.624s] -- Installing: /home/meric/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.zsh
+[33.625s] -- Installing: /home/meric/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.dsv
+[33.626s] -- Installing: /home/meric/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/package.dsv
+[33.627s] -- Installing: /home/meric/f1tenth_ws/install/ackermann_mux/share/ament_index/resource_index/packages/ackermann_mux
+[33.628s] -- Installing: /home/meric/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_include_directories-extras.cmake
+[33.629s] -- Installing: /home/meric/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_dependencies-extras.cmake
+[33.630s] -- Installing: /home/meric/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig.cmake
+[33.630s] -- Installing: /home/meric/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig-version.cmake
+[33.631s] -- Installing: /home/meric/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/package.xml
+[33.641s] Invoked command in '/home/meric/f1tenth_ws/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/navigation:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/meric/f1tenth_ws/build/ackermann_mux

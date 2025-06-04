@@ -1,0 +1,20 @@
+[2.267s] Invoking command in '/home/meric/f1tenth_ws/src/slam': PYTHONPATH=/home/meric/f1tenth_ws/build/slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meric/f1tenth_ws/install/slam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/slam build --build-base /home/meric/f1tenth_ws/build/slam/build install --record /home/meric/f1tenth_ws/build/slam/install.log --install-scripts $base/lib/slam --single-version-externally-managed install_data
+[2.754s] running egg_info
+[2.755s] writing ../../build/slam/slam.egg-info/PKG-INFO
+[2.756s] writing dependency_links to ../../build/slam/slam.egg-info/dependency_links.txt
+[2.756s] writing entry points to ../../build/slam/slam.egg-info/entry_points.txt
+[2.756s] writing requirements to ../../build/slam/slam.egg-info/requires.txt
+[2.757s] writing top-level names to ../../build/slam/slam.egg-info/top_level.txt
+[2.824s] reading manifest file '../../build/slam/slam.egg-info/SOURCES.txt'
+[2.825s] writing manifest file '../../build/slam/slam.egg-info/SOURCES.txt'
+[2.826s] running build
+[2.826s] running build_py
+[2.826s] running install
+[2.828s] running install_lib
+[2.831s] running install_data
+[2.831s] running install_egg_info
+[2.836s] removing '/home/meric/f1tenth_ws/install/slam/lib/python3.8/site-packages/slam-0.0.0-py3.8.egg-info' (and everything under it)
+[2.837s] Copying ../../build/slam/slam.egg-info to /home/meric/f1tenth_ws/install/slam/lib/python3.8/site-packages/slam-0.0.0-py3.8.egg-info
+[2.839s] running install_scripts
+[2.878s] writing list of installed files to '/home/meric/f1tenth_ws/build/slam/install.log'
+[2.951s] Invoked command in '/home/meric/f1tenth_ws/src/slam' returned '0': PYTHONPATH=/home/meric/f1tenth_ws/build/slam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meric/f1tenth_ws/install/slam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/slam build --build-base /home/meric/f1tenth_ws/build/slam/build install --record /home/meric/f1tenth_ws/build/slam/install.log --install-scripts $base/lib/slam --single-version-externally-managed install_data

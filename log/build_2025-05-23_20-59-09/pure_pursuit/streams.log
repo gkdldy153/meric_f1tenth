@@ -1,0 +1,88 @@
+[1.095s] Invoking command in '/home/meric/f1tenth_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/navigation:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake /home/meric/f1tenth_ws/src/pure_pursuit -DCMAKE_INSTALL_PREFIX=/home/meric/f1tenth_ws/install/pure_pursuit
+[1.218s] -- The C compiler identification is GNU 9.4.0
+[1.333s] -- The CXX compiler identification is GNU 9.4.0
+[1.343s] -- Check for working C compiler: /usr/bin/cc
+[1.502s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.504s] -- Detecting C compiler ABI info
+[1.667s] -- Detecting C compiler ABI info - done
+[1.687s] -- Detecting C compile features
+[1.689s] -- Detecting C compile features - done
+[1.694s] -- Check for working CXX compiler: /usr/bin/c++
+[1.882s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.886s] -- Detecting CXX compiler ABI info
+[2.074s] -- Detecting CXX compiler ABI info - done
+[2.097s] -- Detecting CXX compile features
+[2.099s] -- Detecting CXX compile features - done
+[2.105s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.183s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.184s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.667s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.794s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.799s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.014s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.082s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.249s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.360s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.363s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.365s] -- Looking for pthread.h
+[3.539s] -- Looking for pthread.h - found
+[3.539s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.699s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.700s] -- Looking for pthread_create in pthreads
+[3.830s] -- Looking for pthread_create in pthreads - not found
+[3.830s] -- Looking for pthread_create in pthread
+[3.993s] -- Looking for pthread_create in pthread - found
+[3.995s] -- Found Threads: TRUE  
+[4.341s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[4.344s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[4.425s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[4.605s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[4.722s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[4.910s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[5.157s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[5.176s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[5.184s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[6.885s] -- Configuring done
+[7.031s] -- Generating done
+[7.094s] -- Build files have been written to: /home/meric/f1tenth_ws/build/pure_pursuit
+[8.758s] Invoked command in '/home/meric/f1tenth_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/navigation:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake /home/meric/f1tenth_ws/src/pure_pursuit -DCMAKE_INSTALL_PREFIX=/home/meric/f1tenth_ws/install/pure_pursuit
+[8.760s] Invoking command in '/home/meric/f1tenth_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/navigation:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/meric/f1tenth_ws/build/pure_pursuit -- -j6 -l6
+[9.163s] [35m[1mScanning dependencies of target waypoint_visualizer[0m
+[9.173s] [35m[1mScanning dependencies of target pure_pursuit[0m
+[9.441s] [ 25%] [32mBuilding CXX object CMakeFiles/waypoint_visualizer.dir/src/waypoint_visualizer.cpp.o[0m
+[9.754s] [ 50%] [32mBuilding CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o[0m
+[23.282s] [ 75%] [32m[1mLinking CXX executable waypoint_visualizer[0m
+[24.166s] [ 75%] Built target waypoint_visualizer
+[35.798s] [100%] [32m[1mLinking CXX executable pure_pursuit[0m
+[37.034s] [100%] Built target pure_pursuit
+[37.100s] Invoked command in '/home/meric/f1tenth_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/navigation:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/meric/f1tenth_ws/build/pure_pursuit -- -j6 -l6
+[37.102s] Invoking command in '/home/meric/f1tenth_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/navigation:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/meric/f1tenth_ws/build/pure_pursuit
+[37.159s] -- Install configuration: ""
+[37.159s] -- Installing: /home/meric/f1tenth_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit
+[37.165s] -- Set runtime path of "/home/meric/f1tenth_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit" to ""
+[37.165s] -- Installing: /home/meric/f1tenth_ws/install/pure_pursuit/lib/pure_pursuit/waypoint_visualizer
+[37.167s] -- Set runtime path of "/home/meric/f1tenth_ws/install/pure_pursuit/lib/pure_pursuit/waypoint_visualizer" to ""
+[37.167s] -- Installing: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/launch
+[37.167s] -- Installing: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/launch/pure_pursuit_launch.py
+[37.174s] -- Installing: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/launch/sim_pure_pursuit.rviz
+[37.175s] -- Installing: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/launch/sim_pure_pursuit_launch.py
+[37.175s] -- Installing: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/launch/pure_pursuit.rviz
+[37.176s] -- Installing: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/config
+[37.176s] -- Installing: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/config/config.yaml
+[37.185s] -- Installing: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/config/sim_config.yaml
+[37.185s] -- Installing: /home/meric/f1tenth_ws/install/pure_pursuit/share/ament_index/resource_index/package_run_dependencies/pure_pursuit
+[37.186s] -- Installing: /home/meric/f1tenth_ws/install/pure_pursuit/share/ament_index/resource_index/parent_prefix_path/pure_pursuit
+[37.186s] -- Installing: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.sh
+[37.186s] -- Installing: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.dsv
+[37.187s] -- Installing: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/environment/path.sh
+[37.187s] -- Installing: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/environment/path.dsv
+[37.187s] -- Installing: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/local_setup.bash
+[37.188s] -- Installing: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/local_setup.sh
+[37.188s] -- Installing: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/local_setup.zsh
+[37.188s] -- Installing: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/local_setup.dsv
+[37.188s] -- Installing: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/package.dsv
+[37.189s] -- Installing: /home/meric/f1tenth_ws/install/pure_pursuit/share/ament_index/resource_index/packages/pure_pursuit
+[37.189s] -- Installing: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig.cmake
+[37.189s] -- Installing: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig-version.cmake
+[37.190s] -- Installing: /home/meric/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/package.xml
+[37.200s] Invoked command in '/home/meric/f1tenth_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/navigation:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/meric/f1tenth_ws/build/pure_pursuit

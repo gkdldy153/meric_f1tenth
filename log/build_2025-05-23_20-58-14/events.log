@@ -1,0 +1,77 @@
+[0.000000] (-) TimerEvent: {}
+[0.000680] (-) JobUnselected: {'identifier': 'ackermann_mux'}
+[0.001241] (-) JobUnselected: {'identifier': 'f1tenth_stack'}
+[0.001585] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.001891] (-) JobUnselected: {'identifier': 'key_teleop'}
+[0.002005] (-) JobUnselected: {'identifier': 'mouse_teleop'}
+[0.002081] (-) JobUnselected: {'identifier': 'pure_pursuit'}
+[0.002149] (-) JobUnselected: {'identifier': 'slam'}
+[0.002215] (-) JobUnselected: {'identifier': 'stanley_avoidance'}
+[0.002282] (-) JobUnselected: {'identifier': 'teleop_tools'}
+[0.002344] (-) JobUnselected: {'identifier': 'teleop_tools_msgs'}
+[0.002405] (-) JobUnselected: {'identifier': 'vesc'}
+[0.002463] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.002528] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.002581] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.002632] (-) JobUnselected: {'identifier': 'waypoint_generator'}
+[0.002804] (stanley2_avoidance) JobQueued: {'identifier': 'stanley2_avoidance', 'dependencies': OrderedDict()}
+[0.002887] (stanley2_avoidance) JobStarted: {'identifier': 'stanley2_avoidance'}
+[0.099428] (-) TimerEvent: {}
+[0.200173] (-) TimerEvent: {}
+[0.300741] (-) TimerEvent: {}
+[0.401301] (-) TimerEvent: {}
+[0.502173] (-) TimerEvent: {}
+[0.603129] (-) TimerEvent: {}
+[0.703837] (-) TimerEvent: {}
+[0.804398] (-) TimerEvent: {}
+[0.904955] (-) TimerEvent: {}
+[1.005527] (-) TimerEvent: {}
+[1.106086] (-) TimerEvent: {}
+[1.206624] (-) TimerEvent: {}
+[1.296239] (stanley2_avoidance) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/meric/f1tenth_ws/build/stanley2_avoidance/build', '--no-deps', 'symlink_data'], 'cwd': '/home/meric/f1tenth_ws/build/stanley2_avoidance', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'meric', 'SSH_AGENT_PID': '4183', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/meric/f1tenth_ws/install/vesc_driver/lib:/home/meric/f1tenth_ws/install/vesc_ackermann/lib:/home/meric/f1tenth_ws/install/vesc_msgs/lib:/home/meric/f1tenth_ws/install/teleop_tools_msgs/lib:/home/meric/ORBLIB/Pangolin/build/:/usr/lib/aarch64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/home/meric/ORBLIB/ORB_SLAM3/lib', 'HOME': '/home/meric', 'OLDPWD': '/home/meric/f1tenth_ws', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '4088', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '19135', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/meric/f1tenth_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'meric', 'JOURNAL_STREAM': '8:74878', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'meric', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/meric/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/4218,unix/ubuntu:/tmp/.ICE-unix/4218', 'INVOCATION_ID': '9bb490d635ad4649856ffff60812de32', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/meric/f1tenth_ws/install/waypoint_generator:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/vesc:/home/meric/f1tenth_ws/install/vesc_driver:/home/meric/f1tenth_ws/install/vesc_ackermann:/home/meric/f1tenth_ws/install/vesc_msgs:/home/meric/f1tenth_ws/install/teleop_tools:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/teleop_tools_msgs:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/pure_pursuit:/home/meric/f1tenth_ws/install/navigation:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/home/meric/f1tenth_ws/install/ackermann_mux:/opt/ros/foxy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:457f734b-611c-46d6-9970-eec546150ce7', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/meric/f1tenth_ws/build/stanley2_avoidance', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/meric/f1tenth_ws/build/stanley2_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meric/f1tenth_ws/install/stanley2_avoidance/lib/python3.8/site-packages:/home/meric/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/meric/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/meric/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/meric/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/meric/f1tenth_ws/install/stanley_avoidance/lib/python3.8/site-packages:/home/meric/f1tenth_ws/install/slam/lib/python3.8/site-packages:/home/meric/f1tenth_ws/install/navigation/lib/python3.8/site-packages:/home/meric/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/meric/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/meric/f1tenth_ws/install/waypoint_generator:/home/meric/f1tenth_ws/install/vesc:/home/meric/f1tenth_ws/install/vesc_driver:/home/meric/f1tenth_ws/install/vesc_ackermann:/home/meric/f1tenth_ws/install/vesc_msgs:/home/meric/f1tenth_ws/install/teleop_tools:/home/meric/f1tenth_ws/install/teleop_tools_msgs:/home/meric/f1tenth_ws/install/pure_pursuit:/home/meric/f1tenth_ws/install/ackermann_mux'}, 'shell': False}
+[1.307577] (-) TimerEvent: {}
+[1.408487] (-) TimerEvent: {}
+[1.509087] (-) TimerEvent: {}
+[1.609640] (-) TimerEvent: {}
+[1.710193] (-) TimerEvent: {}
+[1.781762] (stanley2_avoidance) StdoutLine: {'line': b'running develop\n'}
+[1.810334] (-) TimerEvent: {}
+[1.911349] (-) TimerEvent: {}
+[2.011895] (-) TimerEvent: {}
+[2.063868] (stanley2_avoidance) StdoutLine: {'line': b'running egg_info\n'}
+[2.064501] (stanley2_avoidance) StdoutLine: {'line': b'creating stanley2_avoidance.egg-info\n'}
+[2.064678] (stanley2_avoidance) StdoutLine: {'line': b'writing stanley2_avoidance.egg-info/PKG-INFO\n'}
+[2.064888] (stanley2_avoidance) StdoutLine: {'line': b'writing dependency_links to stanley2_avoidance.egg-info/dependency_links.txt\n'}
+[2.065108] (stanley2_avoidance) StdoutLine: {'line': b'writing entry points to stanley2_avoidance.egg-info/entry_points.txt\n'}
+[2.065315] (stanley2_avoidance) StdoutLine: {'line': b'writing requirements to stanley2_avoidance.egg-info/requires.txt\n'}
+[2.065512] (stanley2_avoidance) StdoutLine: {'line': b'writing top-level names to stanley2_avoidance.egg-info/top_level.txt\n'}
+[2.068326] (stanley2_avoidance) StdoutLine: {'line': b"writing manifest file 'stanley2_avoidance.egg-info/SOURCES.txt'\n"}
+[2.111998] (-) TimerEvent: {}
+[2.124588] (stanley2_avoidance) StdoutLine: {'line': b"reading manifest file 'stanley2_avoidance.egg-info/SOURCES.txt'\n"}
+[2.125780] (stanley2_avoidance) StdoutLine: {'line': b"writing manifest file 'stanley2_avoidance.egg-info/SOURCES.txt'\n"}
+[2.195057] (stanley2_avoidance) StdoutLine: {'line': b'running build_ext\n'}
+[2.195844] (stanley2_avoidance) StdoutLine: {'line': b'Creating /home/meric/f1tenth_ws/install/stanley2_avoidance/lib/python3.8/site-packages/site.py\n'}
+[2.199814] (stanley2_avoidance) StdoutLine: {'line': b'Creating /home/meric/f1tenth_ws/install/stanley2_avoidance/lib/python3.8/site-packages/stanley2-avoidance.egg-link (link to .)\n'}
+[2.201533] (stanley2_avoidance) StdoutLine: {'line': b'Installing stanley2_avoidance script to /home/meric/f1tenth_ws/install/stanley2_avoidance/lib/stanley2_avoidance\n'}
+[2.202027] (stanley2_avoidance) StdoutLine: {'line': b'\n'}
+[2.202220] (stanley2_avoidance) StdoutLine: {'line': b'Installed /home/meric/f1tenth_ws/build/stanley2_avoidance\n'}
+[2.202548] (stanley2_avoidance) StdoutLine: {'line': b'running symlink_data\n'}
+[2.202697] (stanley2_avoidance) StdoutLine: {'line': b'creating /home/meric/f1tenth_ws/install/stanley2_avoidance/share/ament_index\n'}
+[2.202981] (stanley2_avoidance) StdoutLine: {'line': b'creating /home/meric/f1tenth_ws/install/stanley2_avoidance/share/ament_index/resource_index\n'}
+[2.203154] (stanley2_avoidance) StdoutLine: {'line': b'creating /home/meric/f1tenth_ws/install/stanley2_avoidance/share/ament_index/resource_index/packages\n'}
+[2.203390] (stanley2_avoidance) StdoutLine: {'line': b'symbolically linking /home/meric/f1tenth_ws/build/stanley2_avoidance/resource/stanley2_avoidance -> /home/meric/f1tenth_ws/install/stanley2_avoidance/share/ament_index/resource_index/packages\n'}
+[2.203771] (stanley2_avoidance) StdoutLine: {'line': b'symbolically linking /home/meric/f1tenth_ws/build/stanley2_avoidance/package.xml -> /home/meric/f1tenth_ws/install/stanley2_avoidance/share/stanley2_avoidance\n'}
+[2.203976] (stanley2_avoidance) StdoutLine: {'line': b'creating /home/meric/f1tenth_ws/install/stanley2_avoidance/share/stanley2_avoidance/racelines\n'}
+[2.204129] (stanley2_avoidance) StdoutLine: {'line': b'creating /home/meric/f1tenth_ws/install/stanley2_avoidance/share/stanley2_avoidance/launch\n'}
+[2.204470] (stanley2_avoidance) StdoutLine: {'line': b'symbolically linking /home/meric/f1tenth_ws/build/stanley2_avoidance/launch/sim_stanley_avoidance_launch.py -> /home/meric/f1tenth_ws/install/stanley2_avoidance/share/stanley2_avoidance/launch\n'}
+[2.204608] (stanley2_avoidance) StdoutLine: {'line': b'symbolically linking /home/meric/f1tenth_ws/build/stanley2_avoidance/launch/stanley_avoidance_launch.py -> /home/meric/f1tenth_ws/install/stanley2_avoidance/share/stanley2_avoidance/launch\n'}
+[2.204741] (stanley2_avoidance) StdoutLine: {'line': b'symbolically linking /home/meric/f1tenth_ws/build/stanley2_avoidance/launch/sim_multi_agent_stanley_avoidance_launch.py -> /home/meric/f1tenth_ws/install/stanley2_avoidance/share/stanley2_avoidance/launch\n'}
+[2.204898] (stanley2_avoidance) StdoutLine: {'line': b'symbolically linking /home/meric/f1tenth_ws/build/stanley2_avoidance/launch/stanley_avoidance.rviz -> /home/meric/f1tenth_ws/install/stanley2_avoidance/share/stanley2_avoidance/launch\n'}
+[2.205028] (stanley2_avoidance) StdoutLine: {'line': b'creating /home/meric/f1tenth_ws/install/stanley2_avoidance/share/stanley2_avoidance/config\n'}
+[2.205149] (stanley2_avoidance) StdoutLine: {'line': b'symbolically linking /home/meric/f1tenth_ws/build/stanley2_avoidance/config/config.yaml -> /home/meric/f1tenth_ws/install/stanley2_avoidance/share/stanley2_avoidance/config\n'}
+[2.205270] (stanley2_avoidance) StdoutLine: {'line': b'symbolically linking /home/meric/f1tenth_ws/build/stanley2_avoidance/config/sim_config.yaml -> /home/meric/f1tenth_ws/install/stanley2_avoidance/share/stanley2_avoidance/config\n'}
+[2.212090] (-) TimerEvent: {}
+[2.277610] (stanley2_avoidance) CommandEnded: {'returncode': 0}
+[2.312983] (-) TimerEvent: {}
+[2.319769] (stanley2_avoidance) JobEnded: {'identifier': 'stanley2_avoidance', 'rc': 0}
+[2.321828] (-) EventReactorShutdown: {}

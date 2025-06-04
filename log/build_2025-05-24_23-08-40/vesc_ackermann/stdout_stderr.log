@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target vesc_ackermann[0m
+[ 28%] Built target ackermann_to_vesc_node
+[ 57%] Built target vesc_to_odom_node
+[ 71%] [32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/vesc_to_odom.cpp.o[0m
+[01m[K/home/meric/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:[m[K In member function ‘[01m[Kvoid vesc_ackermann::VescToOdom::vescStateCallback(vesc_msgs::msg::VescStateStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/meric/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:121:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kclamp[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  121 |     current_steering_angle = std::[01;31m[Kclamp[m[K(current_steering_angle,
+      |                                   [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/vesc_ackermann.dir/build.make:76: CMakeFiles/vesc_ackermann.dir/src/vesc_to_odom.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/vesc_ackermann.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "vesc_driver",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9d31c52d0046a675aaa3.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vesc_device_namer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vesc_device_namer-5f510d6dbbc93a8bed67.json",
+					"name" : "vesc_device_namer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vesc_driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vesc_driver-d4cbc6c21d11b85587e9.json",
+					"name" : "vesc_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vesc_driver_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vesc_driver_node-c5a72cb45344236ea061.json",
+					"name" : "vesc_driver_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vesc_driver_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vesc_driver_uninstall-0a0ed8a3535aa5dad398.json",
+					"name" : "vesc_driver_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/meric/f1tenth_ws/build/vesc_driver",
+		"source" : "/home/meric/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

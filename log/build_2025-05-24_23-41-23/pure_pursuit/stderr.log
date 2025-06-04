@@ -1,0 +1,10 @@
+/usr/bin/ld: CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o: in function `PurePursuit::transformandinterp_waypoint()':
+pure_pursuit.cpp:(.text+0x2d4): undefined reference to `PurePursuit::visualize_lookahead_point(Eigen::Matrix<double, 3, 1, 0, 3, 1>&)'
+/usr/bin/ld: pure_pursuit.cpp:(.text+0x2e8): undefined reference to `PurePursuit::visualize_current_point(Eigen::Matrix<double, 3, 1, 0, 3, 1>&)'
+/usr/bin/ld: pure_pursuit.cpp:(.text+0x364): undefined reference to `PurePursuit::quat_to_rot(double, double, double, double)'
+/usr/bin/ld: CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o: in function `void __gnu_cxx::new_allocator<PurePursuit>::construct<PurePursuit>(PurePursuit*)':
+pure_pursuit.cpp:(.text._ZN9__gnu_cxx13new_allocatorI11PurePursuitE9constructIS1_JEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI11PurePursuitE9constructIS1_JEEEvPT_DpOT0_]+0x30): undefined reference to `PurePursuit::PurePursuit()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/pure_pursuit.dir/build.make:186: pure_pursuit] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/pure_pursuit.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

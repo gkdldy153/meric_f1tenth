@@ -1,0 +1,13 @@
+[0.137s] Invoking command in '/home/meric/f1tenth_ws/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/home/meric/install/f1tenth_stack:/home/meric/install/joy_teleop:/home/meric/install/mouse_teleop:/home/meric/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/meric/f1tenth_ws/build/vesc_msgs -- -j6 -l6
+[0.859s] [  1%] Built target vesc_msgs__cpp
+[0.860s] [ 12%] Built target vesc_msgs__rosidl_generator_c
+[0.861s] make[2]: *** [CMakeFiles/vesc_msgs__rosidl_typesupport_c.dir/build.make:249: CMakeFiles/vesc_msgs__rosidl_typesupport_c.dir/depend] Interrupt
+[0.862s] make[1]: *** [CMakeFiles/Makefile2:300: CMakeFiles/vesc_msgs__rosidl_typesupport_c.dir/all] Interrupt
+[0.863s] make[2]: *** [CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:279: CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_cpp.dir/depend] Interrupt
+[0.863s] make[2]: *** [CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:267: CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_cpp.dir/depend] Interrupt
+[0.864s] make[1]: *** [CMakeFiles/Makefile2:361: CMakeFiles/vesc_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+[0.864s] make[1]: *** [CMakeFiles/Makefile2:498: CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_c.dir/all] Interrupt
+[0.864s] make[1]: *** [CMakeFiles/Makefile2:444: CMakeFiles/vesc_msgs__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+[0.864s] make[2]: *** [CMakeFiles/vesc_msgs__rosidl_typesupport_cpp.dir/build.make:249: CMakeFiles/vesc_msgs__rosidl_typesupport_cpp.dir/depend] Interrupt
+[0.864s] make[1]: *** [CMakeFiles/Makefile2:525: CMakeFiles/vesc_msgs__rosidl_typesupport_cpp.dir/all] Interrupt
+[0.864s] make: *** [Makefile:141: all] Interrupt

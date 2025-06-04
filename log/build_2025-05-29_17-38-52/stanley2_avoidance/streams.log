@@ -1,0 +1,21 @@
+[2.324s] Invoking command in '/home/meric/f1tenth_ws/src/stanley2_avoidance': PYTHONPATH=/home/meric/f1tenth_ws/build/stanley2_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meric/f1tenth_ws/install/stanley2_avoidance/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/stanley2_avoidance build --build-base /home/meric/f1tenth_ws/build/stanley2_avoidance/build install --record /home/meric/f1tenth_ws/build/stanley2_avoidance/install.log --install-scripts $base/lib/stanley2_avoidance --single-version-externally-managed install_data
+[2.854s] running egg_info
+[2.856s] writing ../../build/stanley2_avoidance/stanley2_avoidance.egg-info/PKG-INFO
+[2.856s] writing dependency_links to ../../build/stanley2_avoidance/stanley2_avoidance.egg-info/dependency_links.txt
+[2.857s] writing entry points to ../../build/stanley2_avoidance/stanley2_avoidance.egg-info/entry_points.txt
+[2.857s] writing requirements to ../../build/stanley2_avoidance/stanley2_avoidance.egg-info/requires.txt
+[2.858s] writing top-level names to ../../build/stanley2_avoidance/stanley2_avoidance.egg-info/top_level.txt
+[2.927s] reading manifest file '../../build/stanley2_avoidance/stanley2_avoidance.egg-info/SOURCES.txt'
+[2.928s] writing manifest file '../../build/stanley2_avoidance/stanley2_avoidance.egg-info/SOURCES.txt'
+[2.929s] running build
+[2.929s] running build_py
+[2.929s] running install
+[2.932s] running install_lib
+[2.936s] running install_data
+[2.937s] running install_egg_info
+[2.942s] removing '/home/meric/f1tenth_ws/install/stanley2_avoidance/lib/python3.8/site-packages/stanley2_avoidance-0.0.0-py3.8.egg-info' (and everything under it)
+[2.942s] Copying ../../build/stanley2_avoidance/stanley2_avoidance.egg-info to /home/meric/f1tenth_ws/install/stanley2_avoidance/lib/python3.8/site-packages/stanley2_avoidance-0.0.0-py3.8.egg-info
+[2.944s] running install_scripts
+[2.986s] Installing stanley2_avoidance script to /home/meric/f1tenth_ws/install/stanley2_avoidance/lib/stanley2_avoidance
+[2.986s] writing list of installed files to '/home/meric/f1tenth_ws/build/stanley2_avoidance/install.log'
+[3.046s] Invoked command in '/home/meric/f1tenth_ws/src/stanley2_avoidance' returned '0': PYTHONPATH=/home/meric/f1tenth_ws/build/stanley2_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meric/f1tenth_ws/install/stanley2_avoidance/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/stanley2_avoidance build --build-base /home/meric/f1tenth_ws/build/stanley2_avoidance/build install --record /home/meric/f1tenth_ws/build/stanley2_avoidance/install.log --install-scripts $base/lib/stanley2_avoidance --single-version-externally-managed install_data

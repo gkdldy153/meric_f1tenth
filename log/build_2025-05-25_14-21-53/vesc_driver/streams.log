@@ -1,0 +1,45 @@
+[0.573s] Invoking command in '/home/meric/f1tenth_ws/build/vesc_driver': AMENT_PREFIX_PATH=/home/meric/f1tenth_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/meric/f1tenth_ws/install/vesc_msgs:/home/meric/sim_ws/install/waypoint_generator:/home/meric/sim_ws/install/wall_follow:/home/meric/sim_ws/install/scan_matching:/home/meric/sim_ws/install/safety_node:/home/meric/sim_ws/install/pure_pursuit:/home/meric/sim_ws/install/gap_follow:/home/meric/sim_ws/install/stanley_avoidance:/home/meric/sim_ws/install/slam:/home/meric/sim_ws/install/navigation:/home/meric/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/meric/f1tenth_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/meric/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/meric/f1tenth_ws/build/vesc_driver -- -j6 -l6
+[0.891s] [ 50%] Built target vesc_driver
+[0.896s] [ 70%] Built target vesc_driver_node
+[1.085s] [100%] Built target vesc_device_namer
+[1.809s] Invoked command in '/home/meric/f1tenth_ws/build/vesc_driver' returned '0': AMENT_PREFIX_PATH=/home/meric/f1tenth_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/meric/f1tenth_ws/install/vesc_msgs:/home/meric/sim_ws/install/waypoint_generator:/home/meric/sim_ws/install/wall_follow:/home/meric/sim_ws/install/scan_matching:/home/meric/sim_ws/install/safety_node:/home/meric/sim_ws/install/pure_pursuit:/home/meric/sim_ws/install/gap_follow:/home/meric/sim_ws/install/stanley_avoidance:/home/meric/sim_ws/install/slam:/home/meric/sim_ws/install/navigation:/home/meric/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/meric/f1tenth_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/meric/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/meric/f1tenth_ws/build/vesc_driver -- -j6 -l6
+[1.817s] Invoking command in '/home/meric/f1tenth_ws/build/vesc_driver': AMENT_PREFIX_PATH=/home/meric/f1tenth_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/meric/f1tenth_ws/install/vesc_msgs:/home/meric/sim_ws/install/waypoint_generator:/home/meric/sim_ws/install/wall_follow:/home/meric/sim_ws/install/scan_matching:/home/meric/sim_ws/install/safety_node:/home/meric/sim_ws/install/pure_pursuit:/home/meric/sim_ws/install/gap_follow:/home/meric/sim_ws/install/stanley_avoidance:/home/meric/sim_ws/install/slam:/home/meric/sim_ws/install/navigation:/home/meric/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/meric/f1tenth_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/meric/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/meric/f1tenth_ws/build/vesc_driver
+[1.877s] -- Install configuration: ""
+[1.877s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/lib/vesc_driver/vesc_driver_node
+[1.877s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/include
+[1.878s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/include/vesc_driver
+[1.879s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/include/vesc_driver/datatypes.hpp
+[1.879s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/include/vesc_driver/vesc_interface.hpp
+[1.879s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/include/vesc_driver/vesc_device_uuid_lookup.hpp
+[1.879s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/include/vesc_driver/vesc_packet_factory.hpp
+[1.879s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/include/vesc_driver/crc.hpp
+[1.879s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/include/vesc_driver/vesc_driver.hpp
+[1.879s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/include/vesc_driver/vesc_packet.hpp
+[1.880s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/library_path.sh
+[1.880s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/library_path.dsv
+[1.880s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/lib/libvesc_driver.so
+[1.881s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/lib/vesc_driver/vesc_device_namer
+[1.882s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/share/vesc_driver/launch
+[1.886s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/share/vesc_driver/launch/vesc_driver_node.launch.py
+[1.886s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/share/vesc_driver/params
+[1.886s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/share/vesc_driver/params/vesc_config.yaml
+[1.886s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/share/ament_index/resource_index/package_run_dependencies/vesc_driver
+[1.887s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/share/ament_index/resource_index/parent_prefix_path/vesc_driver
+[1.887s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/ament_prefix_path.sh
+[1.887s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/ament_prefix_path.dsv
+[1.888s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/path.sh
+[1.889s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/share/vesc_driver/environment/path.dsv
+[1.889s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/share/vesc_driver/local_setup.bash
+[1.890s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/share/vesc_driver/local_setup.sh
+[1.890s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/share/vesc_driver/local_setup.zsh
+[1.890s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/share/vesc_driver/local_setup.dsv
+[1.893s] -- Installing: /home/meric/f1tenth_ws/install/vesc_driver/share/vesc_driver/package.dsv
+[1.893s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/share/ament_index/resource_index/packages/vesc_driver
+[1.893s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/share/ament_index/resource_index/rclcpp_components/vesc_driver
+[1.893s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.894s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.894s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/share/vesc_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[1.894s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/share/vesc_driver/cmake/vesc_driverConfig.cmake
+[1.894s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/share/vesc_driver/cmake/vesc_driverConfig-version.cmake
+[1.895s] -- Up-to-date: /home/meric/f1tenth_ws/install/vesc_driver/share/vesc_driver/package.xml
+[1.947s] Invoked command in '/home/meric/f1tenth_ws/build/vesc_driver' returned '0': AMENT_PREFIX_PATH=/home/meric/f1tenth_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/meric/f1tenth_ws/install/vesc_msgs:/home/meric/sim_ws/install/waypoint_generator:/home/meric/sim_ws/install/wall_follow:/home/meric/sim_ws/install/scan_matching:/home/meric/sim_ws/install/safety_node:/home/meric/sim_ws/install/pure_pursuit:/home/meric/sim_ws/install/gap_follow:/home/meric/sim_ws/install/stanley_avoidance:/home/meric/sim_ws/install/slam:/home/meric/sim_ws/install/navigation:/home/meric/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy LD_LIBRARY_PATH=/home/meric/f1tenth_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/meric/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/meric/f1tenth_ws/build/vesc_driver

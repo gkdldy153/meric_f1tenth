@@ -1,0 +1,32 @@
+running develop
+running egg_info
+creating stanley2_avoidance.egg-info
+writing stanley2_avoidance.egg-info/PKG-INFO
+writing dependency_links to stanley2_avoidance.egg-info/dependency_links.txt
+writing entry points to stanley2_avoidance.egg-info/entry_points.txt
+writing requirements to stanley2_avoidance.egg-info/requires.txt
+writing top-level names to stanley2_avoidance.egg-info/top_level.txt
+writing manifest file 'stanley2_avoidance.egg-info/SOURCES.txt'
+reading manifest file 'stanley2_avoidance.egg-info/SOURCES.txt'
+writing manifest file 'stanley2_avoidance.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/meric/f1tenth_ws/install/stanley2_avoidance/lib/python3.8/site-packages/site.py
+Creating /home/meric/f1tenth_ws/install/stanley2_avoidance/lib/python3.8/site-packages/stanley2-avoidance.egg-link (link to .)
+Installing stanley2_avoidance script to /home/meric/f1tenth_ws/install/stanley2_avoidance/lib/stanley2_avoidance
+
+Installed /home/meric/f1tenth_ws/build/stanley2_avoidance
+running symlink_data
+creating /home/meric/f1tenth_ws/install/stanley2_avoidance/share/ament_index
+creating /home/meric/f1tenth_ws/install/stanley2_avoidance/share/ament_index/resource_index
+creating /home/meric/f1tenth_ws/install/stanley2_avoidance/share/ament_index/resource_index/packages
+symbolically linking /home/meric/f1tenth_ws/build/stanley2_avoidance/resource/stanley2_avoidance -> /home/meric/f1tenth_ws/install/stanley2_avoidance/share/ament_index/resource_index/packages
+symbolically linking /home/meric/f1tenth_ws/build/stanley2_avoidance/package.xml -> /home/meric/f1tenth_ws/install/stanley2_avoidance/share/stanley2_avoidance
+creating /home/meric/f1tenth_ws/install/stanley2_avoidance/share/stanley2_avoidance/racelines
+creating /home/meric/f1tenth_ws/install/stanley2_avoidance/share/stanley2_avoidance/launch
+symbolically linking /home/meric/f1tenth_ws/build/stanley2_avoidance/launch/sim_stanley_avoidance_launch.py -> /home/meric/f1tenth_ws/install/stanley2_avoidance/share/stanley2_avoidance/launch
+symbolically linking /home/meric/f1tenth_ws/build/stanley2_avoidance/launch/stanley_avoidance_launch.py -> /home/meric/f1tenth_ws/install/stanley2_avoidance/share/stanley2_avoidance/launch
+symbolically linking /home/meric/f1tenth_ws/build/stanley2_avoidance/launch/sim_multi_agent_stanley_avoidance_launch.py -> /home/meric/f1tenth_ws/install/stanley2_avoidance/share/stanley2_avoidance/launch
+symbolically linking /home/meric/f1tenth_ws/build/stanley2_avoidance/launch/stanley_avoidance.rviz -> /home/meric/f1tenth_ws/install/stanley2_avoidance/share/stanley2_avoidance/launch
+creating /home/meric/f1tenth_ws/install/stanley2_avoidance/share/stanley2_avoidance/config
+symbolically linking /home/meric/f1tenth_ws/build/stanley2_avoidance/config/config.yaml -> /home/meric/f1tenth_ws/install/stanley2_avoidance/share/stanley2_avoidance/config
+symbolically linking /home/meric/f1tenth_ws/build/stanley2_avoidance/config/sim_config.yaml -> /home/meric/f1tenth_ws/install/stanley2_avoidance/share/stanley2_avoidance/config

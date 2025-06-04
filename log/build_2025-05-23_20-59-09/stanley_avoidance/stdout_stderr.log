@@ -1,0 +1,44 @@
+running egg_info
+creating ../../build/stanley_avoidance/stanley_avoidance.egg-info
+writing ../../build/stanley_avoidance/stanley_avoidance.egg-info/PKG-INFO
+writing dependency_links to ../../build/stanley_avoidance/stanley_avoidance.egg-info/dependency_links.txt
+writing entry points to ../../build/stanley_avoidance/stanley_avoidance.egg-info/entry_points.txt
+writing requirements to ../../build/stanley_avoidance/stanley_avoidance.egg-info/requires.txt
+writing top-level names to ../../build/stanley_avoidance/stanley_avoidance.egg-info/top_level.txt
+writing manifest file '../../build/stanley_avoidance/stanley_avoidance.egg-info/SOURCES.txt'
+reading manifest file '../../build/stanley_avoidance/stanley_avoidance.egg-info/SOURCES.txt'
+writing manifest file '../../build/stanley_avoidance/stanley_avoidance.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/meric/f1tenth_ws/build/stanley_avoidance/build
+creating /home/meric/f1tenth_ws/build/stanley_avoidance/build/lib
+creating /home/meric/f1tenth_ws/build/stanley_avoidance/build/lib/stanley_avoidance
+copying stanley_avoidance/stanley_avoidance.py -> /home/meric/f1tenth_ws/build/stanley_avoidance/build/lib/stanley_avoidance
+copying stanley_avoidance/__init__.py -> /home/meric/f1tenth_ws/build/stanley_avoidance/build/lib/stanley_avoidance
+running install
+running install_lib
+creating /home/meric/f1tenth_ws/install/stanley_avoidance/lib/python3.8/site-packages/stanley_avoidance
+copying /home/meric/f1tenth_ws/build/stanley_avoidance/build/lib/stanley_avoidance/stanley_avoidance.py -> /home/meric/f1tenth_ws/install/stanley_avoidance/lib/python3.8/site-packages/stanley_avoidance
+copying /home/meric/f1tenth_ws/build/stanley_avoidance/build/lib/stanley_avoidance/__init__.py -> /home/meric/f1tenth_ws/install/stanley_avoidance/lib/python3.8/site-packages/stanley_avoidance
+byte-compiling /home/meric/f1tenth_ws/install/stanley_avoidance/lib/python3.8/site-packages/stanley_avoidance/stanley_avoidance.py to stanley_avoidance.cpython-38.pyc
+byte-compiling /home/meric/f1tenth_ws/install/stanley_avoidance/lib/python3.8/site-packages/stanley_avoidance/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/meric/f1tenth_ws/install/stanley_avoidance/share/ament_index
+creating /home/meric/f1tenth_ws/install/stanley_avoidance/share/ament_index/resource_index
+creating /home/meric/f1tenth_ws/install/stanley_avoidance/share/ament_index/resource_index/packages
+copying resource/stanley_avoidance -> /home/meric/f1tenth_ws/install/stanley_avoidance/share/ament_index/resource_index/packages
+copying package.xml -> /home/meric/f1tenth_ws/install/stanley_avoidance/share/stanley_avoidance
+creating /home/meric/f1tenth_ws/install/stanley_avoidance/share/stanley_avoidance/racelines
+creating /home/meric/f1tenth_ws/install/stanley_avoidance/share/stanley_avoidance/launch
+copying launch/sim_stanley_avoidance_launch.py -> /home/meric/f1tenth_ws/install/stanley_avoidance/share/stanley_avoidance/launch
+copying launch/stanley_avoidance_launch.py -> /home/meric/f1tenth_ws/install/stanley_avoidance/share/stanley_avoidance/launch
+copying launch/sim_multi_agent_stanley_avoidance_launch.py -> /home/meric/f1tenth_ws/install/stanley_avoidance/share/stanley_avoidance/launch
+copying launch/stanley_avoidance.rviz -> /home/meric/f1tenth_ws/install/stanley_avoidance/share/stanley_avoidance/launch
+creating /home/meric/f1tenth_ws/install/stanley_avoidance/share/stanley_avoidance/config
+copying config/config.yaml -> /home/meric/f1tenth_ws/install/stanley_avoidance/share/stanley_avoidance/config
+copying config/sim_config.yaml -> /home/meric/f1tenth_ws/install/stanley_avoidance/share/stanley_avoidance/config
+running install_egg_info
+Copying ../../build/stanley_avoidance/stanley_avoidance.egg-info to /home/meric/f1tenth_ws/install/stanley_avoidance/lib/python3.8/site-packages/stanley_avoidance-0.0.0-py3.8.egg-info
+running install_scripts
+Installing stanley_avoidance script to /home/meric/f1tenth_ws/install/stanley_avoidance/lib/stanley_avoidance
+writing list of installed files to '/home/meric/f1tenth_ws/build/stanley_avoidance/install.log'

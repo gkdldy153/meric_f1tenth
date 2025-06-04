@@ -1,0 +1,54 @@
+[1.415s] Invoking command in '/home/meric/f1tenth_ws/src/f1tenth_system/f1tenth_stack': AMENT_PREFIX_PATH=/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/waypoint_generator:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/vesc:/home/meric/f1tenth_ws/install/vesc_driver:/home/meric/f1tenth_ws/install/vesc_ackermann:/home/meric/f1tenth_ws/install/vesc_msgs:/home/meric/f1tenth_ws/install/teleop_tools:/home/meric/f1tenth_ws/install/teleop_tools_msgs:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/pure_pursuit:/home/meric/f1tenth_ws/install/navigation:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/home/meric/f1tenth_ws/install/ackermann_mux:/opt/ros/foxy CMAKE_PREFIX_PATH=/home/meric/f1tenth_ws/install/vesc:/home/meric/f1tenth_ws/install/vesc_driver:/home/meric/f1tenth_ws/install/vesc_ackermann:/home/meric/f1tenth_ws/install/vesc_msgs:/home/meric/f1tenth_ws/install/teleop_tools_msgs:/home/meric/f1tenth_ws/install/ackermann_mux:/home/meric/f1tenth_ws/install/waypoint_generator:/home/meric/f1tenth_ws/install/teleop_tools:/home/meric/f1tenth_ws/install/pure_pursuit PYTHONPATH=/home/meric/f1tenth_ws/build/f1tenth_stack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meric/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/meric/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/meric/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/meric/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/meric/f1tenth_ws/build/stanley2_avoidance:/home/meric/f1tenth_ws/install/stanley2_avoidance/lib/python3.8/site-packages:/home/meric/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/meric/f1tenth_ws/install/stanley_avoidance/lib/python3.8/site-packages:/home/meric/f1tenth_ws/install/slam/lib/python3.8/site-packages:/home/meric/f1tenth_ws/install/navigation/lib/python3.8/site-packages:/home/meric/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/meric/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/f1tenth_stack build --build-base /home/meric/f1tenth_ws/build/f1tenth_stack/build install --record /home/meric/f1tenth_ws/build/f1tenth_stack/install.log --install-scripts $base/lib/f1tenth_stack --single-version-externally-managed install_data
+[1.872s] running egg_info
+[1.872s] creating ../../../build/f1tenth_stack/f1tenth_stack.egg-info
+[1.873s] writing ../../../build/f1tenth_stack/f1tenth_stack.egg-info/PKG-INFO
+[1.873s] writing dependency_links to ../../../build/f1tenth_stack/f1tenth_stack.egg-info/dependency_links.txt
+[1.873s] writing entry points to ../../../build/f1tenth_stack/f1tenth_stack.egg-info/entry_points.txt
+[1.874s] writing requirements to ../../../build/f1tenth_stack/f1tenth_stack.egg-info/requires.txt
+[1.874s] writing top-level names to ../../../build/f1tenth_stack/f1tenth_stack.egg-info/top_level.txt
+[1.876s] writing manifest file '../../../build/f1tenth_stack/f1tenth_stack.egg-info/SOURCES.txt'
+[1.938s] reading manifest file '../../../build/f1tenth_stack/f1tenth_stack.egg-info/SOURCES.txt'
+[1.939s] writing manifest file '../../../build/f1tenth_stack/f1tenth_stack.egg-info/SOURCES.txt'
+[1.939s] running build
+[1.940s] running build_py
+[1.940s] creating /home/meric/f1tenth_ws/build/f1tenth_stack/build
+[1.940s] creating /home/meric/f1tenth_ws/build/f1tenth_stack/build/lib
+[1.940s] creating /home/meric/f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack
+[1.940s] copying f1tenth_stack/__init__.py -> /home/meric/f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack
+[1.941s] copying f1tenth_stack/imu_tf_broadcaster.py -> /home/meric/f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack
+[1.947s] copying f1tenth_stack/tf_publisher.py -> /home/meric/f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack
+[1.948s] copying f1tenth_stack/throttle_interpolator.py -> /home/meric/f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack
+[1.948s] running install
+[1.950s] running install_lib
+[1.952s] creating /home/meric/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack
+[1.952s] copying /home/meric/f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack/__init__.py -> /home/meric/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack
+[1.952s] copying /home/meric/f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack/imu_tf_broadcaster.py -> /home/meric/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack
+[1.953s] copying /home/meric/f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack/tf_publisher.py -> /home/meric/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack
+[1.953s] copying /home/meric/f1tenth_ws/build/f1tenth_stack/build/lib/f1tenth_stack/throttle_interpolator.py -> /home/meric/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack
+[1.954s] byte-compiling /home/meric/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack/__init__.py to __init__.cpython-38.pyc
+[1.956s] byte-compiling /home/meric/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack/imu_tf_broadcaster.py to imu_tf_broadcaster.cpython-38.pyc
+[1.957s] byte-compiling /home/meric/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack/tf_publisher.py to tf_publisher.cpython-38.pyc
+[1.958s] byte-compiling /home/meric/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack/throttle_interpolator.py to throttle_interpolator.cpython-38.pyc
+[1.959s] running install_data
+[1.960s] creating /home/meric/f1tenth_ws/install/f1tenth_stack/share/ament_index
+[1.960s] creating /home/meric/f1tenth_ws/install/f1tenth_stack/share/ament_index/resource_index
+[1.960s] creating /home/meric/f1tenth_ws/install/f1tenth_stack/share/ament_index/resource_index/packages
+[1.960s] copying resource/f1tenth_stack -> /home/meric/f1tenth_ws/install/f1tenth_stack/share/ament_index/resource_index/packages
+[1.960s] copying package.xml -> /home/meric/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack
+[1.960s] creating /home/meric/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/launch
+[1.961s] copying launch/bringup_launch.py -> /home/meric/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/launch
+[1.961s] creating /home/meric/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/config
+[1.961s] copying config/vesc.yaml -> /home/meric/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/config
+[1.961s] copying config/sensors.yaml -> /home/meric/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/config
+[1.962s] copying config/mux.yaml -> /home/meric/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/config
+[1.962s] copying config/joy_teleop.yaml -> /home/meric/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/config
+[1.962s] copying config/f1tenth_online_async.yaml -> /home/meric/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/config
+[1.963s] running install_egg_info
+[1.967s] Copying ../../../build/f1tenth_stack/f1tenth_stack.egg-info to /home/meric/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth_stack-0.0.1-py3.8.egg-info
+[1.969s] running install_scripts
+[2.004s] Installing imu_recorder script to /home/meric/f1tenth_ws/install/f1tenth_stack/lib/f1tenth_stack
+[2.004s] Installing imu_tf_broadcaster script to /home/meric/f1tenth_ws/install/f1tenth_stack/lib/f1tenth_stack
+[2.004s] Installing tf_publisher script to /home/meric/f1tenth_ws/install/f1tenth_stack/lib/f1tenth_stack
+[2.004s] Installing throttle_interpolator script to /home/meric/f1tenth_ws/install/f1tenth_stack/lib/f1tenth_stack
+[2.005s] writing list of installed files to '/home/meric/f1tenth_ws/build/f1tenth_stack/install.log'
+[2.067s] Invoked command in '/home/meric/f1tenth_ws/src/f1tenth_system/f1tenth_stack' returned '0': AMENT_PREFIX_PATH=/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/waypoint_generator:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/vesc:/home/meric/f1tenth_ws/install/vesc_driver:/home/meric/f1tenth_ws/install/vesc_ackermann:/home/meric/f1tenth_ws/install/vesc_msgs:/home/meric/f1tenth_ws/install/teleop_tools:/home/meric/f1tenth_ws/install/teleop_tools_msgs:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/pure_pursuit:/home/meric/f1tenth_ws/install/navigation:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/home/meric/f1tenth_ws/install/ackermann_mux:/opt/ros/foxy CMAKE_PREFIX_PATH=/home/meric/f1tenth_ws/install/vesc:/home/meric/f1tenth_ws/install/vesc_driver:/home/meric/f1tenth_ws/install/vesc_ackermann:/home/meric/f1tenth_ws/install/vesc_msgs:/home/meric/f1tenth_ws/install/teleop_tools_msgs:/home/meric/f1tenth_ws/install/ackermann_mux:/home/meric/f1tenth_ws/install/waypoint_generator:/home/meric/f1tenth_ws/install/teleop_tools:/home/meric/f1tenth_ws/install/pure_pursuit PYTHONPATH=/home/meric/f1tenth_ws/build/f1tenth_stack/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meric/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/meric/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/meric/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/meric/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/meric/f1tenth_ws/build/stanley2_avoidance:/home/meric/f1tenth_ws/install/stanley2_avoidance/lib/python3.8/site-packages:/home/meric/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/meric/f1tenth_ws/install/stanley_avoidance/lib/python3.8/site-packages:/home/meric/f1tenth_ws/install/slam/lib/python3.8/site-packages:/home/meric/f1tenth_ws/install/navigation/lib/python3.8/site-packages:/home/meric/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/meric/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/f1tenth_stack build --build-base /home/meric/f1tenth_ws/build/f1tenth_stack/build install --record /home/meric/f1tenth_ws/build/f1tenth_stack/install.log --install-scripts $base/lib/f1tenth_stack --single-version-externally-managed install_data

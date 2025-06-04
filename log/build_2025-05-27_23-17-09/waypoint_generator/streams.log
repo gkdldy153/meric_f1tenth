@@ -1,0 +1,32 @@
+[0.073s] Invoking command in '/home/meric/f1tenth_ws/build/waypoint_generator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/install/f1tenth_stack:/home/meric/install/joy_teleop:/home/meric/install/mouse_teleop:/home/meric/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/meric/f1tenth_ws/build/waypoint_generator -- -j6 -l6
+[0.208s] [35m[1mScanning dependencies of target waypoint_visualizer[0m
+[0.249s] [35m[1mScanning dependencies of target waypoint_generator[0m
+[0.291s] [ 25%] [32mBuilding CXX object CMakeFiles/waypoint_visualizer.dir/src/waypoint_visualizer.cpp.o[0m
+[0.364s] [ 50%] [32mBuilding CXX object CMakeFiles/waypoint_generator.dir/src/waypoint_generator.cpp.o[0m
+[8.128s] [ 75%] [32m[1mLinking CXX executable waypoint_visualizer[0m
+[8.484s] [ 75%] Built target waypoint_visualizer
+[11.081s] [100%] [32m[1mLinking CXX executable waypoint_generator[0m
+[11.594s] [100%] Built target waypoint_generator
+[11.618s] Invoked command in '/home/meric/f1tenth_ws/build/waypoint_generator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/install/f1tenth_stack:/home/meric/install/joy_teleop:/home/meric/install/mouse_teleop:/home/meric/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/meric/f1tenth_ws/build/waypoint_generator -- -j6 -l6
+[11.624s] Invoking command in '/home/meric/f1tenth_ws/build/waypoint_generator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/install/f1tenth_stack:/home/meric/install/joy_teleop:/home/meric/install/mouse_teleop:/home/meric/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/meric/f1tenth_ws/build/waypoint_generator
+[11.644s] -- Install configuration: ""
+[11.645s] -- Installing: /home/meric/f1tenth_ws/install/waypoint_generator/lib/waypoint_generator/waypoint_generator
+[11.649s] -- Set runtime path of "/home/meric/f1tenth_ws/install/waypoint_generator/lib/waypoint_generator/waypoint_generator" to ""
+[11.650s] -- Installing: /home/meric/f1tenth_ws/install/waypoint_generator/lib/waypoint_generator/waypoint_visualizer
+[11.652s] -- Set runtime path of "/home/meric/f1tenth_ws/install/waypoint_generator/lib/waypoint_generator/waypoint_visualizer" to ""
+[11.653s] -- Up-to-date: /home/meric/f1tenth_ws/install/waypoint_generator/share/ament_index/resource_index/package_run_dependencies/waypoint_generator
+[11.653s] -- Up-to-date: /home/meric/f1tenth_ws/install/waypoint_generator/share/ament_index/resource_index/parent_prefix_path/waypoint_generator
+[11.653s] -- Up-to-date: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/environment/ament_prefix_path.sh
+[11.653s] -- Up-to-date: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/environment/ament_prefix_path.dsv
+[11.654s] -- Up-to-date: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/environment/path.sh
+[11.654s] -- Up-to-date: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/environment/path.dsv
+[11.654s] -- Up-to-date: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/local_setup.bash
+[11.654s] -- Up-to-date: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/local_setup.sh
+[11.655s] -- Up-to-date: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/local_setup.zsh
+[11.655s] -- Up-to-date: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/local_setup.dsv
+[11.655s] -- Installing: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/package.dsv
+[11.655s] -- Up-to-date: /home/meric/f1tenth_ws/install/waypoint_generator/share/ament_index/resource_index/packages/waypoint_generator
+[11.656s] -- Up-to-date: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/cmake/waypoint_generatorConfig.cmake
+[11.656s] -- Up-to-date: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/cmake/waypoint_generatorConfig-version.cmake
+[11.656s] -- Up-to-date: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/package.xml
+[11.661s] Invoked command in '/home/meric/f1tenth_ws/build/waypoint_generator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/install/f1tenth_stack:/home/meric/install/joy_teleop:/home/meric/install/mouse_teleop:/home/meric/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/meric/f1tenth_ws/build/waypoint_generator

@@ -1,0 +1,220 @@
+[0.099s] Invoking command in '/home/meric/f1tenth_ws/build/teleop_tools_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/navigation:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake /home/meric/f1tenth_ws/src/f1tenth_system/teleop_tools/teleop_tools_msgs -DCMAKE_INSTALL_PREFIX=/home/meric/f1tenth_ws/install/teleop_tools_msgs
+[1.166s] -- The C compiler identification is GNU 9.4.0
+[1.166s] -- The CXX compiler identification is GNU 9.4.0
+[1.166s] -- Check for working C compiler: /usr/bin/cc
+[1.166s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.166s] -- Detecting C compiler ABI info
+[1.166s] -- Detecting C compiler ABI info - done
+[1.166s] -- Detecting C compile features
+[1.166s] -- Detecting C compile features - done
+[1.166s] -- Check for working CXX compiler: /usr/bin/c++
+[1.167s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.167s] -- Detecting CXX compiler ABI info
+[1.167s] -- Detecting CXX compiler ABI info - done
+[1.167s] -- Detecting CXX compile features
+[1.169s] -- Detecting CXX compile features - done
+[1.169s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.178s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.178s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.687s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.700s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.718s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.019s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.106s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.330s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.406s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.686s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.042s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[3.343s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.403s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.486s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[3.491s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[3.581s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[3.581s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.581s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[3.581s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[3.652s] -- Found PythonExtra: .so  
+[3.807s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.812s] -- Added test 'lint_cmake' to check CMake code style
+[3.815s] -- Added test 'xmllint' to check XML markup files
+[3.840s] -- Configuring done
+[3.942s] -- Generating done
+[3.981s] -- Build files have been written to: /home/meric/f1tenth_ws/build/teleop_tools_msgs
+[4.057s] Invoked command in '/home/meric/f1tenth_ws/build/teleop_tools_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/navigation:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake /home/meric/f1tenth_ws/src/f1tenth_system/teleop_tools/teleop_tools_msgs -DCMAKE_INSTALL_PREFIX=/home/meric/f1tenth_ws/install/teleop_tools_msgs
+[4.063s] Invoking command in '/home/meric/f1tenth_ws/build/teleop_tools_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/navigation:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/meric/f1tenth_ws/build/teleop_tools_msgs -- -j6 -l6
+[4.185s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.206s] [35m[1mScanning dependencies of target teleop_tools_msgs__cpp[0m
+[4.250s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.683s] [35m[1mScanning dependencies of target teleop_tools_msgs__rosidl_generator_c[0m
+[5.718s] [  6%] Built target teleop_tools_msgs__cpp
+[5.782s] [  9%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_generator_c.dir/rosidl_generator_c/teleop_tools_msgs/action/detail/increment__functions.c.o[0m
+[5.805s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.835s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.842s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.563s] [ 22%] [32m[1mLinking C shared library libteleop_tools_msgs__rosidl_generator_c.so[0m
+[6.891s] [ 22%] Built target teleop_tools_msgs__rosidl_generator_c
+[6.981s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.005s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.065s] [35m[1mScanning dependencies of target teleop_tools_msgs__rosidl_typesupport_cpp[0m
+[7.192s] [ 32%] [32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/teleop_tools_msgs/action/increment__type_support.cpp.o[0m
+[7.346s] [35m[1mScanning dependencies of target teleop_tools_msgs__rosidl_typesupport_introspection_cpp[0m
+[7.488s] [ 35%] [32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/teleop_tools_msgs/action/detail/increment__type_support.cpp.o[0m
+[7.743s] [35m[1mScanning dependencies of target teleop_tools_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[7.881s] [ 38%] [32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/teleop_tools_msgs/action/detail/dds_fastrtps/increment__type_support.cpp.o[0m
+[8.567s] [35m[1mScanning dependencies of target teleop_tools_msgs__rosidl_typesupport_introspection_c[0m
+[8.687s] [ 41%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/teleop_tools_msgs/action/detail/increment__type_support.c.o[0m
+[8.731s] [35m[1mScanning dependencies of target teleop_tools_msgs__rosidl_typesupport_c[0m
+[8.868s] [ 45%] [32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/teleop_tools_msgs/action/increment__type_support.cpp.o[0m
+[8.984s] [ 48%] [32m[1mLinking C shared library libteleop_tools_msgs__rosidl_typesupport_introspection_c.so[0m
+[9.142s] [ 51%] [32m[1mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_cpp.so[0m
+[9.227s] [ 54%] [32m[1mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_c.so[0m
+[9.260s] [ 54%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_c
+[9.408s] [ 54%] Built target teleop_tools_msgs__rosidl_typesupport_cpp
+[9.522s] [ 54%] Built target teleop_tools_msgs__rosidl_typesupport_c
+[9.815s] [ 58%] [32m[1mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[10.214s] [ 58%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_cpp
+[10.838s] [ 61%] [32m[1mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.373s] [ 61%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_cpp
+[11.475s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[13.432s] [35m[1mScanning dependencies of target teleop_tools_msgs__rosidl_typesupport_fastrtps_c[0m
+[13.547s] [ 67%] [32mBuilding CXX object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/teleop_tools_msgs/action/detail/increment__type_support_c.cpp.o[0m
+[15.150s] [ 70%] [32m[1mLinking CXX shared library libteleop_tools_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[15.500s] [ 70%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_c
+[15.551s] [35m[1mScanning dependencies of target teleop_tools_msgs[0m
+[15.604s] [ 70%] Built target teleop_tools_msgs
+[15.660s] [35m[1mScanning dependencies of target teleop_tools_msgs__py[0m
+[15.688s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[17.672s] [ 74%] Built target teleop_tools_msgs__py
+[17.749s] [35m[1mScanning dependencies of target teleop_tools_msgs__python[0m
+[17.876s] [ 77%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__python.dir/rosidl_generator_py/teleop_tools_msgs/action/_increment_s.c.o[0m
+[18.593s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/teleop_tools_msgs/libteleop_tools_msgs__python.so[0m
+[18.829s] [ 80%] Built target teleop_tools_msgs__python
+[18.900s] [35m[1mScanning dependencies of target teleop_tools_msgs__rosidl_typesupport_c__pyext[0m
+[18.910s] [35m[1mScanning dependencies of target teleop_tools_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[18.914s] [35m[1mScanning dependencies of target teleop_tools_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[18.995s] [ 83%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[18.999s] [ 87%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[19.003s] [ 90%] [32mBuilding C object CMakeFiles/teleop_tools_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/teleop_tools_msgs/_teleop_tools_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[19.349s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[19.362s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[19.499s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[19.531s] [100%] Built target teleop_tools_msgs__rosidl_typesupport_c__pyext
+[19.546s] [100%] Built target teleop_tools_msgs__rosidl_typesupport_introspection_c__pyext
+[19.692s] [100%] Built target teleop_tools_msgs__rosidl_typesupport_fastrtps_c__pyext
+[19.754s] Invoked command in '/home/meric/f1tenth_ws/build/teleop_tools_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/navigation:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/meric/f1tenth_ws/build/teleop_tools_msgs -- -j6 -l6
+[19.830s] Invoking command in '/home/meric/f1tenth_ws/build/teleop_tools_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/navigation:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/meric/f1tenth_ws/build/teleop_tools_msgs
+[19.887s] -- Install configuration: ""
+[19.887s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/ament_index/resource_index/rosidl_interfaces/teleop_tools_msgs
+[19.887s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs
+[19.890s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/msg
+[19.891s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/msg/rosidl_generator_c__visibility_control.h
+[19.891s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action
+[19.891s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail
+[19.891s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__functions.h
+[19.892s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__struct.h
+[19.892s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__type_support.h
+[19.892s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__functions.c
+[19.892s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/increment.h
+[19.898s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/library_path.sh
+[19.899s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/library_path.dsv
+[19.899s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_generator_c.so
+[19.900s] -- Set runtime path of "/home/meric/f1tenth_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_generator_c.so" to ""
+[19.900s] -- Up-to-date: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs
+[19.901s] -- Up-to-date: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/msg
+[19.901s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[19.901s] -- Up-to-date: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action
+[19.901s] -- Up-to-date: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail
+[19.901s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__rosidl_typesupport_fastrtps_c.h
+[19.902s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_fastrtps_c.so
+[19.902s] -- Set runtime path of "/home/meric/f1tenth_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[19.903s] -- Up-to-date: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs
+[19.903s] -- Up-to-date: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/msg
+[19.903s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[19.903s] -- Up-to-date: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action
+[19.903s] -- Up-to-date: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail
+[19.904s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__rosidl_typesupport_fastrtps_cpp.hpp
+[19.904s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/dds_fastrtps
+[19.904s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_fastrtps_cpp.so
+[19.905s] -- Set runtime path of "/home/meric/f1tenth_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[19.905s] -- Up-to-date: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs
+[19.905s] -- Up-to-date: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/msg
+[19.905s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[19.906s] -- Up-to-date: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action
+[19.906s] -- Up-to-date: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail
+[19.906s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__rosidl_typesupport_introspection_c.h
+[19.914s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__type_support.c
+[19.915s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_introspection_c.so
+[19.916s] -- Set runtime path of "/home/meric/f1tenth_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_introspection_c.so" to ""
+[19.916s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_c.so
+[19.917s] -- Set runtime path of "/home/meric/f1tenth_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_c.so" to ""
+[19.917s] -- Up-to-date: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs
+[19.917s] -- Up-to-date: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/msg
+[19.917s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[19.918s] -- Up-to-date: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action
+[19.918s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/increment.hpp
+[19.918s] -- Up-to-date: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail
+[19.918s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__struct.hpp
+[19.919s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__traits.hpp
+[19.919s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__type_support.hpp
+[19.919s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__builder.hpp
+[19.919s] -- Up-to-date: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs
+[19.919s] -- Up-to-date: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action
+[19.920s] -- Up-to-date: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail
+[19.920s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__rosidl_typesupport_introspection_cpp.hpp
+[19.920s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/include/teleop_tools_msgs/action/detail/increment__type_support.cpp
+[19.920s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_introspection_cpp.so
+[19.921s] -- Set runtime path of "/home/meric/f1tenth_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[19.921s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_cpp.so
+[19.922s] -- Set runtime path of "/home/meric/f1tenth_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__rosidl_typesupport_cpp.so" to ""
+[19.922s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/pythonpath.sh
+[19.922s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/pythonpath.dsv
+[19.923s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/__init__.py
+[20.113s] Compiling '/home/meric/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/__init__.py'...
+[20.127s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/action
+[20.128s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/action/_increment.py
+[20.128s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/action/__init__.py
+[20.129s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/action/_increment_s.c
+[20.131s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[20.131s] -- Set runtime path of "/home/meric/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[20.131s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[20.133s] -- Set runtime path of "/home/meric/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[20.133s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[20.137s] -- Set runtime path of "/home/meric/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages/teleop_tools_msgs/teleop_tools_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[20.138s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__python.so
+[20.138s] -- Set runtime path of "/home/meric/f1tenth_ws/install/teleop_tools_msgs/lib/libteleop_tools_msgs__python.so" to ""
+[20.138s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/action/Increment.idl
+[20.138s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/action/Increment.action
+[20.138s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/ament_index/resource_index/package_run_dependencies/teleop_tools_msgs
+[20.139s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/ament_index/resource_index/parent_prefix_path/teleop_tools_msgs
+[20.140s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/ament_prefix_path.sh
+[20.141s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/ament_prefix_path.dsv
+[20.142s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/path.sh
+[20.143s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/environment/path.dsv
+[20.144s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/local_setup.bash
+[20.145s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/local_setup.sh
+[20.146s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/local_setup.zsh
+[20.146s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/local_setup.dsv
+[20.147s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/package.dsv
+[20.148s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/ament_index/resource_index/packages/teleop_tools_msgs
+[20.150s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_generator_cExport.cmake
+[20.151s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_generator_cExport-noconfig.cmake
+[20.152s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_introspection_cExport.cmake
+[20.153s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[20.154s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_cExport.cmake
+[20.155s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[20.156s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_generator_cppExport.cmake
+[20.157s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[20.158s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[20.159s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_cppExport.cmake
+[20.160s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[20.161s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/rosidl_cmake-extras.cmake
+[20.162s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.163s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[20.164s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[20.165s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.166s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[20.167s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[20.168s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgsConfig.cmake
+[20.168s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/cmake/teleop_tools_msgsConfig-version.cmake
+[20.169s] -- Installing: /home/meric/f1tenth_ws/install/teleop_tools_msgs/share/teleop_tools_msgs/package.xml
+[20.182s] Invoked command in '/home/meric/f1tenth_ws/build/teleop_tools_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/navigation:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/meric/f1tenth_ws/build/teleop_tools_msgs

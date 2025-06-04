@@ -1,0 +1,1 @@
+/home/meric/f1tenth_ws/src/stanley2_avoidance/launch/sim_stanley_avoidance_launch.py

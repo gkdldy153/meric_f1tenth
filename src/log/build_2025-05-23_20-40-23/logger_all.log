@@ -1,0 +1,334 @@
+[0.431s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'stanley2_avoidance']
+[0.431s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff7f25b370>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['stanley2_avoidance'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff7f25b370>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff7f25bca0>)
+[0.765s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.766s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.766s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.766s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.766s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.766s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.766s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/meric/f1tenth_ws/src'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system) by extensions ['ignore', 'ignore_ament_install']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system) by extension 'ignore'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system) by extension 'ignore_ament_install'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system) by extensions ['colcon_pkg']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system) by extension 'colcon_pkg'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system) by extensions ['colcon_meta']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system) by extension 'colcon_meta'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system) by extensions ['ros']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system) by extension 'ros'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system) by extensions ['cmake', 'python']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system) by extension 'cmake'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system) by extension 'python'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system) by extensions ['python_setup_py']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system) by extension 'python_setup_py'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/ackermann_mux) by extensions ['ignore', 'ignore_ament_install']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/ackermann_mux) by extension 'ignore'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/ackermann_mux) by extension 'ignore_ament_install'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/ackermann_mux) by extensions ['colcon_pkg']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/ackermann_mux) by extension 'colcon_pkg'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/ackermann_mux) by extensions ['colcon_meta']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/ackermann_mux) by extension 'colcon_meta'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/ackermann_mux) by extensions ['ros']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/ackermann_mux) by extension 'ros'
+[0.801s] DEBUG:colcon.colcon_core.package_identification:Package 'f1tenth_system/ackermann_mux' with type 'ros.ament_cmake' and name 'ackermann_mux'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/f1tenth_stack) by extensions ['ignore', 'ignore_ament_install']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/f1tenth_stack) by extension 'ignore'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/f1tenth_stack) by extension 'ignore_ament_install'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/f1tenth_stack) by extensions ['colcon_pkg']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/f1tenth_stack) by extension 'colcon_pkg'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/f1tenth_stack) by extensions ['colcon_meta']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/f1tenth_stack) by extension 'colcon_meta'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/f1tenth_stack) by extensions ['ros']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/f1tenth_stack) by extension 'ros'
+[0.805s] DEBUG:colcon.colcon_core.package_identification:Package 'f1tenth_system/f1tenth_stack' with type 'ros.ament_python' and name 'f1tenth_stack'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/scripts) by extension 'ignore'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/scripts) by extension 'ignore_ament_install'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/scripts) by extensions ['colcon_pkg']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/scripts) by extension 'colcon_pkg'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/scripts) by extensions ['colcon_meta']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/scripts) by extension 'colcon_meta'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/scripts) by extensions ['ros']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/scripts) by extension 'ros'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/scripts) by extensions ['cmake', 'python']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/scripts) by extension 'cmake'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/scripts) by extension 'python'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/scripts) by extensions ['python_setup_py']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/scripts) by extension 'python_setup_py'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools) by extension 'ignore'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools) by extension 'ignore_ament_install'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools) by extensions ['colcon_pkg']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools) by extension 'colcon_pkg'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools) by extensions ['colcon_meta']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools) by extension 'colcon_meta'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools) by extensions ['ros']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools) by extension 'ros'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools) by extensions ['cmake', 'python']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools) by extension 'cmake'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools) by extension 'python'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools) by extensions ['python_setup_py']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools) by extension 'python_setup_py'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/joy_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/joy_teleop) by extension 'ignore'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/joy_teleop) by extension 'ignore_ament_install'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/joy_teleop) by extensions ['colcon_pkg']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/joy_teleop) by extension 'colcon_pkg'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/joy_teleop) by extensions ['colcon_meta']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/joy_teleop) by extension 'colcon_meta'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/joy_teleop) by extensions ['ros']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/joy_teleop) by extension 'ros'
+[0.810s] DEBUG:colcon.colcon_core.package_identification:Package 'f1tenth_system/teleop_tools/joy_teleop' with type 'ros.ament_python' and name 'joy_teleop'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/key_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/key_teleop) by extension 'ignore'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/key_teleop) by extension 'ignore_ament_install'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/key_teleop) by extensions ['colcon_pkg']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/key_teleop) by extension 'colcon_pkg'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/key_teleop) by extensions ['colcon_meta']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/key_teleop) by extension 'colcon_meta'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/key_teleop) by extensions ['ros']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/key_teleop) by extension 'ros'
+[0.813s] DEBUG:colcon.colcon_core.package_identification:Package 'f1tenth_system/teleop_tools/key_teleop' with type 'ros.ament_python' and name 'key_teleop'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/mouse_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/mouse_teleop) by extension 'ignore'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/mouse_teleop) by extension 'ignore_ament_install'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/mouse_teleop) by extensions ['colcon_pkg']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/mouse_teleop) by extension 'colcon_pkg'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/mouse_teleop) by extensions ['colcon_meta']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/mouse_teleop) by extension 'colcon_meta'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/mouse_teleop) by extensions ['ros']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/mouse_teleop) by extension 'ros'
+[0.815s] DEBUG:colcon.colcon_core.package_identification:Package 'f1tenth_system/teleop_tools/mouse_teleop' with type 'ros.ament_python' and name 'mouse_teleop'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/teleop_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/teleop_tools) by extension 'ignore'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/teleop_tools) by extension 'ignore_ament_install'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/teleop_tools) by extensions ['colcon_pkg']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/teleop_tools) by extension 'colcon_pkg'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/teleop_tools) by extensions ['colcon_meta']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/teleop_tools) by extension 'colcon_meta'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/teleop_tools) by extensions ['ros']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/teleop_tools) by extension 'ros'
+[0.817s] DEBUG:colcon.colcon_core.package_identification:Package 'f1tenth_system/teleop_tools/teleop_tools' with type 'ros.ament_cmake' and name 'teleop_tools'
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/teleop_tools_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.817s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/teleop_tools_msgs) by extension 'ignore'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/teleop_tools_msgs) by extension 'ignore_ament_install'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/teleop_tools_msgs) by extensions ['colcon_pkg']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/teleop_tools_msgs) by extension 'colcon_pkg'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/teleop_tools_msgs) by extensions ['colcon_meta']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/teleop_tools_msgs) by extension 'colcon_meta'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/teleop_tools_msgs) by extensions ['ros']
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/teleop_tools/teleop_tools_msgs) by extension 'ros'
+[0.819s] DEBUG:colcon.colcon_core.package_identification:Package 'f1tenth_system/teleop_tools/teleop_tools_msgs' with type 'ros.ament_cmake' and name 'teleop_tools_msgs'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc) by extensions ['ignore', 'ignore_ament_install']
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc) by extension 'ignore'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc) by extension 'ignore_ament_install'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc) by extensions ['colcon_pkg']
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc) by extension 'colcon_pkg'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc) by extensions ['colcon_meta']
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc) by extension 'colcon_meta'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc) by extensions ['ros']
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc) by extension 'ros'
+[0.820s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc) by extensions ['cmake', 'python']
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc) by extension 'cmake'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc) by extension 'python'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc) by extensions ['python_setup_py']
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc) by extension 'python_setup_py'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc) by extensions ['ignore', 'ignore_ament_install']
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc) by extension 'ignore'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc) by extension 'ignore_ament_install'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc) by extensions ['colcon_pkg']
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc) by extension 'colcon_pkg'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc) by extensions ['colcon_meta']
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc) by extension 'colcon_meta'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc) by extensions ['ros']
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc) by extension 'ros'
+[0.823s] DEBUG:colcon.colcon_core.package_identification:Package 'f1tenth_system/vesc/vesc' with type 'ros.ament_cmake' and name 'vesc'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc_ackermann) by extensions ['ignore', 'ignore_ament_install']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc_ackermann) by extension 'ignore'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc_ackermann) by extension 'ignore_ament_install'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc_ackermann) by extensions ['colcon_pkg']
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc_ackermann) by extension 'colcon_pkg'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc_ackermann) by extensions ['colcon_meta']
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc_ackermann) by extension 'colcon_meta'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc_ackermann) by extensions ['ros']
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc_ackermann) by extension 'ros'
+[0.826s] DEBUG:colcon.colcon_core.package_identification:Package 'f1tenth_system/vesc/vesc_ackermann' with type 'ros.ament_cmake' and name 'vesc_ackermann'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc_driver) by extension 'ignore'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc_driver) by extension 'ignore_ament_install'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc_driver) by extensions ['colcon_pkg']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc_driver) by extension 'colcon_pkg'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc_driver) by extensions ['colcon_meta']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc_driver) by extension 'colcon_meta'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc_driver) by extensions ['ros']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc_driver) by extension 'ros'
+[0.830s] DEBUG:colcon.colcon_core.package_identification:Package 'f1tenth_system/vesc/vesc_driver' with type 'ros.ament_cmake' and name 'vesc_driver'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc_msgs) by extension 'ignore'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc_msgs) by extension 'ignore_ament_install'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc_msgs) by extensions ['colcon_pkg']
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc_msgs) by extension 'colcon_pkg'
+[0.830s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc_msgs) by extensions ['colcon_meta']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc_msgs) by extension 'colcon_meta'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc_msgs) by extensions ['ros']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(f1tenth_system/vesc/vesc_msgs) by extension 'ros'
+[0.832s] DEBUG:colcon.colcon_core.package_identification:Package 'f1tenth_system/vesc/vesc_msgs' with type 'ros.ament_cmake' and name 'vesc_msgs'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(pure_pursuit) by extensions ['ignore', 'ignore_ament_install']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(pure_pursuit) by extension 'ignore'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(pure_pursuit) by extension 'ignore_ament_install'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(pure_pursuit) by extensions ['colcon_pkg']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(pure_pursuit) by extension 'colcon_pkg'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(pure_pursuit) by extensions ['colcon_meta']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(pure_pursuit) by extension 'colcon_meta'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(pure_pursuit) by extensions ['ros']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(pure_pursuit) by extension 'ros'
+[0.836s] DEBUG:colcon.colcon_core.package_identification:Package 'pure_pursuit' with type 'ros.ament_cmake' and name 'pure_pursuit'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(slam) by extensions ['ignore', 'ignore_ament_install']
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(slam) by extension 'ignore'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(slam) by extension 'ignore_ament_install'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(slam) by extensions ['colcon_pkg']
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(slam) by extension 'colcon_pkg'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(slam) by extensions ['colcon_meta']
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(slam) by extension 'colcon_meta'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(slam) by extensions ['ros']
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(slam) by extension 'ros'
+[0.838s] DEBUG:colcon.colcon_core.package_identification:Package 'slam' with type 'ros.ament_python' and name 'slam'
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(stanley2_avoidance) by extensions ['ignore', 'ignore_ament_install']
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(stanley2_avoidance) by extension 'ignore'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(stanley2_avoidance) by extension 'ignore_ament_install'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(stanley2_avoidance) by extensions ['colcon_pkg']
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(stanley2_avoidance) by extension 'colcon_pkg'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(stanley2_avoidance) by extensions ['colcon_meta']
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(stanley2_avoidance) by extension 'colcon_meta'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(stanley2_avoidance) by extensions ['ros']
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(stanley2_avoidance) by extension 'ros'
+[0.841s] DEBUG:colcon.colcon_core.package_identification:Package 'stanley2_avoidance' with type 'ros.ament_python' and name 'stanley2_avoidance'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(stanley_avoidance) by extensions ['ignore', 'ignore_ament_install']
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(stanley_avoidance) by extension 'ignore'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(stanley_avoidance) by extension 'ignore_ament_install'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(stanley_avoidance) by extensions ['colcon_pkg']
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(stanley_avoidance) by extension 'colcon_pkg'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(stanley_avoidance) by extensions ['colcon_meta']
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(stanley_avoidance) by extension 'colcon_meta'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(stanley_avoidance) by extensions ['ros']
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(stanley_avoidance) by extension 'ros'
+[0.844s] DEBUG:colcon.colcon_core.package_identification:Package 'stanley_avoidance' with type 'ros.ament_python' and name 'stanley_avoidance'
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(waypoint_generator) by extensions ['ignore', 'ignore_ament_install']
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(waypoint_generator) by extension 'ignore'
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(waypoint_generator) by extension 'ignore_ament_install'
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(waypoint_generator) by extensions ['colcon_pkg']
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(waypoint_generator) by extension 'colcon_pkg'
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(waypoint_generator) by extensions ['colcon_meta']
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(waypoint_generator) by extension 'colcon_meta'
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(waypoint_generator) by extensions ['ros']
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(waypoint_generator) by extension 'ros'
+[0.847s] DEBUG:colcon.colcon_core.package_identification:Package 'waypoint_generator' with type 'ros.ament_cmake' and name 'waypoint_generator'
+[0.847s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.848s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.848s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.848s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.848s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.920s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ackermann_mux' in 'f1tenth_system/ackermann_mux'
+[0.920s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'key_teleop' in 'f1tenth_system/teleop_tools/key_teleop'
+[0.920s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mouse_teleop' in 'f1tenth_system/teleop_tools/mouse_teleop'
+[0.920s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'pure_pursuit' in 'pure_pursuit'
+[0.921s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'slam' in 'slam'
+[0.921s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'stanley_avoidance' in 'stanley_avoidance'
+[0.921s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'teleop_tools_msgs' in 'f1tenth_system/teleop_tools/teleop_tools_msgs'
+[0.921s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'vesc_msgs' in 'f1tenth_system/vesc/vesc_msgs'
+[0.921s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'waypoint_generator' in 'waypoint_generator'
+[0.921s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'joy_teleop' in 'f1tenth_system/teleop_tools/joy_teleop'
+[0.921s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'vesc_ackermann' in 'f1tenth_system/vesc/vesc_ackermann'
+[0.921s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'vesc_driver' in 'f1tenth_system/vesc/vesc_driver'
+[0.921s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'teleop_tools' in 'f1tenth_system/teleop_tools/teleop_tools'
+[0.921s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'vesc' in 'f1tenth_system/vesc/vesc'
+[0.921s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'f1tenth_stack' in 'f1tenth_system/f1tenth_stack'
+[0.922s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.922s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.928s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 16 installed packages in /home/meric/f1tenth_ws/install
+[0.931s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 334 installed packages in /opt/ros/foxy
+[0.934s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.079s] Level 5:colcon.colcon_core.verb:set package 'stanley2_avoidance' build argument 'cmake_args' from command line to 'None'
+[1.079s] Level 5:colcon.colcon_core.verb:set package 'stanley2_avoidance' build argument 'cmake_target' from command line to 'None'
+[1.079s] Level 5:colcon.colcon_core.verb:set package 'stanley2_avoidance' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.079s] Level 5:colcon.colcon_core.verb:set package 'stanley2_avoidance' build argument 'cmake_clean_cache' from command line to 'False'
+[1.079s] Level 5:colcon.colcon_core.verb:set package 'stanley2_avoidance' build argument 'cmake_clean_first' from command line to 'False'
+[1.079s] Level 5:colcon.colcon_core.verb:set package 'stanley2_avoidance' build argument 'cmake_force_configure' from command line to 'False'
+[1.079s] Level 5:colcon.colcon_core.verb:set package 'stanley2_avoidance' build argument 'ament_cmake_args' from command line to 'None'
+[1.079s] Level 5:colcon.colcon_core.verb:set package 'stanley2_avoidance' build argument 'catkin_cmake_args' from command line to 'None'
+[1.079s] Level 5:colcon.colcon_core.verb:set package 'stanley2_avoidance' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.079s] DEBUG:colcon.colcon_core.verb:Building package 'stanley2_avoidance' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/meric/f1tenth_ws/src/build/stanley2_avoidance', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/meric/f1tenth_ws/src/install/stanley2_avoidance', 'merge_install': False, 'path': '/home/meric/f1tenth_ws/src/stanley2_avoidance', 'symlink_install': False, 'test_result_base': None}
+[1.080s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.082s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.083s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/meric/f1tenth_ws/src/stanley2_avoidance' with build type 'ament_python'
+[1.083s] Level 1:colcon.colcon_core.shell:create_environment_hook('stanley2_avoidance', 'ament_prefix_path')
+[1.088s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meric/f1tenth_ws/src/install/stanley2_avoidance/share/stanley2_avoidance/hook/ament_prefix_path.ps1'
+[1.090s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/meric/f1tenth_ws/src/install/stanley2_avoidance/share/stanley2_avoidance/hook/ament_prefix_path.dsv'
+[1.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meric/f1tenth_ws/src/install/stanley2_avoidance/share/stanley2_avoidance/hook/ament_prefix_path.sh'
+[1.092s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.092s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.597s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/meric/f1tenth_ws/src/stanley2_avoidance'
+[1.599s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.599s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/meric/f1tenth_ws/src/stanley2_avoidance': PYTHONPATH=/home/meric/f1tenth_ws/src/build/stanley2_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meric/f1tenth_ws/src/install/stanley2_avoidance/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/stanley2_avoidance build --build-base /home/meric/f1tenth_ws/src/build/stanley2_avoidance/build install --record /home/meric/f1tenth_ws/src/build/stanley2_avoidance/install.log --install-scripts $base/lib/stanley2_avoidance --single-version-externally-managed install_data
+[3.104s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/meric/f1tenth_ws/src/stanley2_avoidance' returned '0': PYTHONPATH=/home/meric/f1tenth_ws/src/build/stanley2_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meric/f1tenth_ws/src/install/stanley2_avoidance/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/stanley2_avoidance build --build-base /home/meric/f1tenth_ws/src/build/stanley2_avoidance/build install --record /home/meric/f1tenth_ws/src/build/stanley2_avoidance/install.log --install-scripts $base/lib/stanley2_avoidance --single-version-externally-managed install_data
+[3.110s] Level 1:colcon.colcon_core.environment:checking '/home/meric/f1tenth_ws/src/install/stanley2_avoidance' for CMake module files
+[3.112s] Level 1:colcon.colcon_core.environment:checking '/home/meric/f1tenth_ws/src/install/stanley2_avoidance' for CMake config files
+[3.114s] Level 1:colcon.colcon_core.environment:checking '/home/meric/f1tenth_ws/src/install/stanley2_avoidance/lib'
+[3.114s] Level 1:colcon.colcon_core.environment:checking '/home/meric/f1tenth_ws/src/install/stanley2_avoidance/bin'
+[3.114s] Level 1:colcon.colcon_core.environment:checking '/home/meric/f1tenth_ws/src/install/stanley2_avoidance/lib/pkgconfig/stanley2_avoidance.pc'
+[3.115s] Level 1:colcon.colcon_core.environment:checking '/home/meric/f1tenth_ws/src/install/stanley2_avoidance/lib/python3.8/site-packages'
+[3.115s] Level 1:colcon.colcon_core.shell:create_environment_hook('stanley2_avoidance', 'pythonpath')
+[3.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meric/f1tenth_ws/src/install/stanley2_avoidance/share/stanley2_avoidance/hook/pythonpath.ps1'
+[3.117s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/meric/f1tenth_ws/src/install/stanley2_avoidance/share/stanley2_avoidance/hook/pythonpath.dsv'
+[3.118s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/meric/f1tenth_ws/src/install/stanley2_avoidance/share/stanley2_avoidance/hook/pythonpath.sh'
+[3.119s] Level 1:colcon.colcon_core.environment:checking '/home/meric/f1tenth_ws/src/install/stanley2_avoidance/bin'
+[3.119s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stanley2_avoidance)
+[3.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/meric/f1tenth_ws/src/install/stanley2_avoidance/share/stanley2_avoidance/package.ps1'
+[3.121s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/meric/f1tenth_ws/src/install/stanley2_avoidance/share/stanley2_avoidance/package.dsv'
+[3.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/meric/f1tenth_ws/src/install/stanley2_avoidance/share/stanley2_avoidance/package.sh'
+[3.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/meric/f1tenth_ws/src/install/stanley2_avoidance/share/stanley2_avoidance/package.bash'
+[3.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/meric/f1tenth_ws/src/install/stanley2_avoidance/share/stanley2_avoidance/package.zsh'
+[3.129s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/meric/f1tenth_ws/src/install/stanley2_avoidance/share/colcon-core/packages/stanley2_avoidance)
+[3.130s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.131s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.131s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.131s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.147s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.147s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.148s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.190s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.192s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/meric/f1tenth_ws/src/install/local_setup.ps1'
+[3.194s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/meric/f1tenth_ws/src/install/_local_setup_util_ps1.py'
+[3.197s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/meric/f1tenth_ws/src/install/setup.ps1'
+[3.200s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/meric/f1tenth_ws/src/install/local_setup.sh'
+[3.201s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/meric/f1tenth_ws/src/install/_local_setup_util_sh.py'
+[3.202s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/meric/f1tenth_ws/src/install/setup.sh'
+[3.206s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/meric/f1tenth_ws/src/install/local_setup.bash'
+[3.207s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/meric/f1tenth_ws/src/install/setup.bash'
+[3.210s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/meric/f1tenth_ws/src/install/local_setup.zsh'
+[3.211s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/meric/f1tenth_ws/src/install/setup.zsh'

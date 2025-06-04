@@ -1,0 +1,16 @@
+[1.177s] Invoking command in '/home/meric/f1tenth_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/home/meric/install/f1tenth_stack:/home/meric/install/joy_teleop:/home/meric/install/mouse_teleop:/home/meric/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/meric/f1tenth_ws/build/pure_pursuit -- -j6 -l6
+[1.291s] [35m[1mScanning dependencies of target pure_pursuit[0m
+[1.359s] [ 50%] Built target waypoint_visualizer
+[1.387s] [ 75%] [32mBuilding CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o[0m
+[9.137s] [100%] [32m[1mLinking CXX executable pure_pursuit[0m
+[9.370s] /usr/bin/ld: CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o: in function `PurePursuit::transformandinterp_waypoint()':
+[9.370s] pure_pursuit.cpp:(.text+0x2d4): undefined reference to `PurePursuit::visualize_lookahead_point(Eigen::Matrix<double, 3, 1, 0, 3, 1>&)'
+[9.370s] /usr/bin/ld: pure_pursuit.cpp:(.text+0x2e8): undefined reference to `PurePursuit::visualize_current_point(Eigen::Matrix<double, 3, 1, 0, 3, 1>&)'
+[9.371s] /usr/bin/ld: pure_pursuit.cpp:(.text+0x364): undefined reference to `PurePursuit::quat_to_rot(double, double, double, double)'
+[9.371s] /usr/bin/ld: CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o: in function `void __gnu_cxx::new_allocator<PurePursuit>::construct<PurePursuit>(PurePursuit*)':
+[9.371s] pure_pursuit.cpp:(.text._ZN9__gnu_cxx13new_allocatorI11PurePursuitE9constructIS1_JEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorI11PurePursuitE9constructIS1_JEEEvPT_DpOT0_]+0x30): undefined reference to `PurePursuit::PurePursuit()'
+[9.371s] collect2: error: ld returned 1 exit status
+[9.375s] make[2]: *** [CMakeFiles/pure_pursuit.dir/build.make:186: pure_pursuit] Error 1
+[9.375s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/pure_pursuit.dir/all] Error 2
+[9.376s] make: *** [Makefile:141: all] Error 2
+[9.382s] Invoked command in '/home/meric/f1tenth_ws/build/pure_pursuit' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/home/meric/install/f1tenth_stack:/home/meric/install/joy_teleop:/home/meric/install/mouse_teleop:/home/meric/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/meric/f1tenth_ws/build/pure_pursuit -- -j6 -l6

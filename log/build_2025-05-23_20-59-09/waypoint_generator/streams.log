@@ -1,0 +1,78 @@
+[0.131s] Invoking command in '/home/meric/f1tenth_ws/build/waypoint_generator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/navigation:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake /home/meric/f1tenth_ws/src/waypoint_generator -DCMAKE_INSTALL_PREFIX=/home/meric/f1tenth_ws/install/waypoint_generator
+[0.492s] -- The C compiler identification is GNU 9.4.0
+[0.809s] -- The CXX compiler identification is GNU 9.4.0
+[0.828s] -- Check for working C compiler: /usr/bin/cc
+[1.320s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.321s] -- Detecting C compiler ABI info
+[1.814s] -- Detecting C compiler ABI info - done
+[1.858s] -- Detecting C compile features
+[1.858s] -- Detecting C compile features - done
+[1.863s] -- Check for working CXX compiler: /usr/bin/c++
+[2.413s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.415s] -- Detecting CXX compiler ABI info
+[2.867s] -- Detecting CXX compiler ABI info - done
+[2.901s] -- Detecting CXX compile features
+[2.902s] -- Detecting CXX compile features - done
+[2.915s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.082s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.082s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.353s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.539s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.584s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.289s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.451s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.933s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.195s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.204s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.206s] -- Looking for pthread.h
+[6.620s] -- Looking for pthread.h - found
+[6.621s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.967s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.967s] -- Looking for pthread_create in pthreads
+[7.304s] -- Looking for pthread_create in pthreads - not found
+[7.304s] -- Looking for pthread_create in pthread
+[7.731s] -- Looking for pthread_create in pthread - found
+[7.734s] -- Found Threads: TRUE  
+[8.175s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[8.180s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[8.256s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[8.432s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[8.517s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[8.763s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[8.942s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[10.157s] -- Configuring done
+[10.217s] -- Generating done
+[10.238s] -- Build files have been written to: /home/meric/f1tenth_ws/build/waypoint_generator
+[10.273s] Invoked command in '/home/meric/f1tenth_ws/build/waypoint_generator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/navigation:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake /home/meric/f1tenth_ws/src/waypoint_generator -DCMAKE_INSTALL_PREFIX=/home/meric/f1tenth_ws/install/waypoint_generator
+[10.280s] Invoking command in '/home/meric/f1tenth_ws/build/waypoint_generator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/navigation:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/meric/f1tenth_ws/build/waypoint_generator -- -j6 -l6
+[10.504s] [35m[1mScanning dependencies of target waypoint_generator[0m
+[10.523s] [35m[1mScanning dependencies of target waypoint_visualizer[0m
+[10.628s] [ 25%] [32mBuilding CXX object CMakeFiles/waypoint_generator.dir/src/waypoint_generator.cpp.o[0m
+[10.679s] [ 50%] [32mBuilding CXX object CMakeFiles/waypoint_visualizer.dir/src/waypoint_visualizer.cpp.o[0m
+[20.380s] [ 75%] [32m[1mLinking CXX executable waypoint_visualizer[0m
+[20.819s] [ 75%] Built target waypoint_visualizer
+[24.087s] [100%] [32m[1mLinking CXX executable waypoint_generator[0m
+[25.494s] [100%] Built target waypoint_generator
+[25.580s] Invoked command in '/home/meric/f1tenth_ws/build/waypoint_generator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/navigation:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/meric/f1tenth_ws/build/waypoint_generator -- -j6 -l6
+[25.588s] Invoking command in '/home/meric/f1tenth_ws/build/waypoint_generator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/navigation:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/meric/f1tenth_ws/build/waypoint_generator
+[25.630s] -- Install configuration: ""
+[25.636s] -- Installing: /home/meric/f1tenth_ws/install/waypoint_generator/lib/waypoint_generator/waypoint_generator
+[25.645s] -- Set runtime path of "/home/meric/f1tenth_ws/install/waypoint_generator/lib/waypoint_generator/waypoint_generator" to ""
+[25.646s] -- Installing: /home/meric/f1tenth_ws/install/waypoint_generator/lib/waypoint_generator/waypoint_visualizer
+[25.655s] -- Set runtime path of "/home/meric/f1tenth_ws/install/waypoint_generator/lib/waypoint_generator/waypoint_visualizer" to ""
+[25.655s] -- Installing: /home/meric/f1tenth_ws/install/waypoint_generator/share/ament_index/resource_index/package_run_dependencies/waypoint_generator
+[25.655s] -- Installing: /home/meric/f1tenth_ws/install/waypoint_generator/share/ament_index/resource_index/parent_prefix_path/waypoint_generator
+[25.656s] -- Installing: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/environment/ament_prefix_path.sh
+[25.656s] -- Installing: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/environment/ament_prefix_path.dsv
+[25.656s] -- Installing: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/environment/path.sh
+[25.657s] -- Installing: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/environment/path.dsv
+[25.657s] -- Installing: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/local_setup.bash
+[25.657s] -- Installing: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/local_setup.sh
+[25.660s] -- Installing: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/local_setup.zsh
+[25.661s] -- Installing: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/local_setup.dsv
+[25.661s] -- Installing: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/package.dsv
+[25.661s] -- Installing: /home/meric/f1tenth_ws/install/waypoint_generator/share/ament_index/resource_index/packages/waypoint_generator
+[25.661s] -- Installing: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/cmake/waypoint_generatorConfig.cmake
+[25.665s] -- Installing: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/cmake/waypoint_generatorConfig-version.cmake
+[25.665s] -- Installing: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/package.xml
+[25.677s] Invoked command in '/home/meric/f1tenth_ws/build/waypoint_generator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/navigation:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/meric/f1tenth_ws/build/waypoint_generator

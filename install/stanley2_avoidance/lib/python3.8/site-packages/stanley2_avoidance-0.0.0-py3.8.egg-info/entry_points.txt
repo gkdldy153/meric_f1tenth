@@ -1,0 +1,3 @@
+[console_scripts]
+stanley2_avoidance = stanley2_avoidance.stanley2_avoidance:main
+

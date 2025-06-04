@@ -1,0 +1,28 @@
+[0.115s] Invoking command in '/home/meric/f1tenth_ws/build/safety_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/meric/f1tenth_ws/build/safety_node -- -j6 -l6
+[0.266s] [100%] Built target safety_node
+[1.177s] Invoked command in '/home/meric/f1tenth_ws/build/safety_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/meric/f1tenth_ws/build/safety_node -- -j6 -l6
+[1.180s] Invoking command in '/home/meric/f1tenth_ws/build/safety_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/meric/f1tenth_ws/build/safety_node
+[1.202s] -- Install configuration: ""
+[1.203s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/lib/safety_node/safety_node
+[1.203s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/share/safety_node/environment/pythonpath.sh
+[1.203s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/share/safety_node/environment/pythonpath.dsv
+[1.204s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/lib/python3.8/site-packages/safety_node
+[1.204s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/lib/python3.8/site-packages/safety_node/__init__.py
+[1.273s] Listing '/home/meric/f1tenth_ws/install/safety_node/lib/python3.8/site-packages/safety_node'...
+[1.285s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/lib/safety_node/safety_node.py
+[1.285s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/share/ament_index/resource_index/package_run_dependencies/safety_node
+[1.285s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/share/ament_index/resource_index/parent_prefix_path/safety_node
+[1.285s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/share/safety_node/environment/ament_prefix_path.sh
+[1.286s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/share/safety_node/environment/ament_prefix_path.dsv
+[1.286s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/share/safety_node/environment/path.sh
+[1.286s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/share/safety_node/environment/path.dsv
+[1.286s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/share/safety_node/local_setup.bash
+[1.286s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/share/safety_node/local_setup.sh
+[1.286s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/share/safety_node/local_setup.zsh
+[1.286s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/share/safety_node/local_setup.dsv
+[1.287s] -- Installing: /home/meric/f1tenth_ws/install/safety_node/share/safety_node/package.dsv
+[1.287s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/share/ament_index/resource_index/packages/safety_node
+[1.287s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/share/safety_node/cmake/safety_nodeConfig.cmake
+[1.287s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/share/safety_node/cmake/safety_nodeConfig-version.cmake
+[1.287s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/share/safety_node/package.xml
+[1.293s] Invoked command in '/home/meric/f1tenth_ws/build/safety_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/meric/f1tenth_ws/build/safety_node

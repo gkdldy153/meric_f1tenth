@@ -1,0 +1,24 @@
+[0.738s] Invoking command in '/home/meric/f1tenth_ws/build/waypoint_generator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/sim_ws/install/stanley_avoidance:/home/meric/sim_ws/install/slam:/home/meric/sim_ws/install/navigation:/home/meric/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/meric/f1tenth_ws/build/waypoint_generator -- -j6 -l6
+[0.908s] [ 50%] Built target waypoint_visualizer
+[0.930s] [100%] Built target waypoint_generator
+[0.961s] Invoked command in '/home/meric/f1tenth_ws/build/waypoint_generator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/sim_ws/install/stanley_avoidance:/home/meric/sim_ws/install/slam:/home/meric/sim_ws/install/navigation:/home/meric/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/meric/f1tenth_ws/build/waypoint_generator -- -j6 -l6
+[0.964s] Invoking command in '/home/meric/f1tenth_ws/build/waypoint_generator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/sim_ws/install/stanley_avoidance:/home/meric/sim_ws/install/slam:/home/meric/sim_ws/install/navigation:/home/meric/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/meric/f1tenth_ws/build/waypoint_generator
+[1.005s] -- Install configuration: ""
+[1.006s] -- Up-to-date: /home/meric/f1tenth_ws/install/waypoint_generator/lib/waypoint_generator/waypoint_generator
+[1.011s] -- Up-to-date: /home/meric/f1tenth_ws/install/waypoint_generator/lib/waypoint_generator/waypoint_visualizer
+[1.014s] -- Up-to-date: /home/meric/f1tenth_ws/install/waypoint_generator/share/ament_index/resource_index/package_run_dependencies/waypoint_generator
+[1.018s] -- Up-to-date: /home/meric/f1tenth_ws/install/waypoint_generator/share/ament_index/resource_index/parent_prefix_path/waypoint_generator
+[1.020s] -- Up-to-date: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/environment/ament_prefix_path.sh
+[1.023s] -- Up-to-date: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/environment/ament_prefix_path.dsv
+[1.024s] -- Up-to-date: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/environment/path.sh
+[1.025s] -- Up-to-date: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/environment/path.dsv
+[1.026s] -- Up-to-date: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/local_setup.bash
+[1.027s] -- Up-to-date: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/local_setup.sh
+[1.028s] -- Up-to-date: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/local_setup.zsh
+[1.031s] -- Up-to-date: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/local_setup.dsv
+[1.032s] -- Installing: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/package.dsv
+[1.032s] -- Up-to-date: /home/meric/f1tenth_ws/install/waypoint_generator/share/ament_index/resource_index/packages/waypoint_generator
+[1.032s] -- Up-to-date: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/cmake/waypoint_generatorConfig.cmake
+[1.032s] -- Up-to-date: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/cmake/waypoint_generatorConfig-version.cmake
+[1.032s] -- Up-to-date: /home/meric/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/package.xml
+[1.090s] Invoked command in '/home/meric/f1tenth_ws/build/waypoint_generator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/sim_ws/install/stanley_avoidance:/home/meric/sim_ws/install/slam:/home/meric/sim_ws/install/navigation:/home/meric/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/meric/f1tenth_ws/build/waypoint_generator

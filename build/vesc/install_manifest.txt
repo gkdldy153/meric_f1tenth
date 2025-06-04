@@ -1,0 +1,15 @@
+/home/meric/f1tenth_ws/install/vesc/share/ament_index/resource_index/package_run_dependencies/vesc
+/home/meric/f1tenth_ws/install/vesc/share/ament_index/resource_index/parent_prefix_path/vesc
+/home/meric/f1tenth_ws/install/vesc/share/vesc/environment/ament_prefix_path.sh
+/home/meric/f1tenth_ws/install/vesc/share/vesc/environment/ament_prefix_path.dsv
+/home/meric/f1tenth_ws/install/vesc/share/vesc/environment/path.sh
+/home/meric/f1tenth_ws/install/vesc/share/vesc/environment/path.dsv
+/home/meric/f1tenth_ws/install/vesc/share/vesc/local_setup.bash
+/home/meric/f1tenth_ws/install/vesc/share/vesc/local_setup.sh
+/home/meric/f1tenth_ws/install/vesc/share/vesc/local_setup.zsh
+/home/meric/f1tenth_ws/install/vesc/share/vesc/local_setup.dsv
+/home/meric/f1tenth_ws/install/vesc/share/vesc/package.dsv
+/home/meric/f1tenth_ws/install/vesc/share/ament_index/resource_index/packages/vesc
+/home/meric/f1tenth_ws/install/vesc/share/vesc/cmake/vescConfig.cmake
+/home/meric/f1tenth_ws/install/vesc/share/vesc/cmake/vescConfig-version.cmake
+/home/meric/f1tenth_ws/install/vesc/share/vesc/package.xml

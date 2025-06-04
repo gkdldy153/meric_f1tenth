@@ -1,0 +1,39 @@
+[2.078s] Invoking command in '/home/meric/f1tenth_ws/src/f1tenth_system/teleop_tools/key_teleop': PYTHONPATH=/home/meric/f1tenth_ws/build/key_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meric/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/key_teleop build --build-base /home/meric/f1tenth_ws/build/key_teleop/build install --record /home/meric/f1tenth_ws/build/key_teleop/install.log --install-scripts $base/lib/key_teleop --single-version-externally-managed install_data
+[2.575s] running egg_info
+[2.575s] creating ../../../../build/key_teleop/key_teleop.egg-info
+[2.576s] writing ../../../../build/key_teleop/key_teleop.egg-info/PKG-INFO
+[2.577s] writing dependency_links to ../../../../build/key_teleop/key_teleop.egg-info/dependency_links.txt
+[2.578s] writing entry points to ../../../../build/key_teleop/key_teleop.egg-info/entry_points.txt
+[2.579s] writing requirements to ../../../../build/key_teleop/key_teleop.egg-info/requires.txt
+[2.579s] writing top-level names to ../../../../build/key_teleop/key_teleop.egg-info/top_level.txt
+[2.583s] writing manifest file '../../../../build/key_teleop/key_teleop.egg-info/SOURCES.txt'
+[2.652s] reading manifest file '../../../../build/key_teleop/key_teleop.egg-info/SOURCES.txt'
+[2.654s] writing manifest file '../../../../build/key_teleop/key_teleop.egg-info/SOURCES.txt'
+[2.655s] running build
+[2.655s] running build_py
+[2.656s] creating /home/meric/f1tenth_ws/build/key_teleop/build
+[2.657s] creating /home/meric/f1tenth_ws/build/key_teleop/build/lib
+[2.657s] creating /home/meric/f1tenth_ws/build/key_teleop/build/lib/key_teleop
+[2.658s] copying key_teleop/key_teleop.py -> /home/meric/f1tenth_ws/build/key_teleop/build/lib/key_teleop
+[2.659s] copying key_teleop/__init__.py -> /home/meric/f1tenth_ws/build/key_teleop/build/lib/key_teleop
+[2.660s] running install
+[2.662s] running install_lib
+[2.665s] creating /home/meric/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages/key_teleop
+[2.666s] copying /home/meric/f1tenth_ws/build/key_teleop/build/lib/key_teleop/key_teleop.py -> /home/meric/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages/key_teleop
+[2.667s] copying /home/meric/f1tenth_ws/build/key_teleop/build/lib/key_teleop/__init__.py -> /home/meric/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages/key_teleop
+[2.669s] byte-compiling /home/meric/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages/key_teleop/key_teleop.py to key_teleop.cpython-38.pyc
+[2.674s] byte-compiling /home/meric/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages/key_teleop/__init__.py to __init__.cpython-38.pyc
+[2.676s] running install_data
+[2.676s] copying package.xml -> /home/meric/f1tenth_ws/install/key_teleop/share/key_teleop
+[2.677s] creating /home/meric/f1tenth_ws/install/key_teleop/share/key_teleop/config
+[2.678s] copying config/key_teleop.yaml -> /home/meric/f1tenth_ws/install/key_teleop/share/key_teleop/config
+[2.679s] creating /home/meric/f1tenth_ws/install/key_teleop/share/ament_index
+[2.679s] creating /home/meric/f1tenth_ws/install/key_teleop/share/ament_index/resource_index
+[2.679s] creating /home/meric/f1tenth_ws/install/key_teleop/share/ament_index/resource_index/packages
+[2.680s] copying resource/key_teleop -> /home/meric/f1tenth_ws/install/key_teleop/share/ament_index/resource_index/packages
+[2.680s] running install_egg_info
+[2.685s] Copying ../../../../build/key_teleop/key_teleop.egg-info to /home/meric/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages/key_teleop-0.3.0-py3.8.egg-info
+[2.688s] running install_scripts
+[2.728s] Installing key_teleop script to /home/meric/f1tenth_ws/install/key_teleop/lib/key_teleop
+[2.729s] writing list of installed files to '/home/meric/f1tenth_ws/build/key_teleop/install.log'
+[2.828s] Invoked command in '/home/meric/f1tenth_ws/src/f1tenth_system/teleop_tools/key_teleop' returned '0': PYTHONPATH=/home/meric/f1tenth_ws/build/key_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meric/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/key_teleop build --build-base /home/meric/f1tenth_ws/build/key_teleop/build install --record /home/meric/f1tenth_ws/build/key_teleop/install.log --install-scripts $base/lib/key_teleop --single-version-externally-managed install_data

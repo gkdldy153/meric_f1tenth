@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pure_pursuit",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "pure_pursuit::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pure_pursuit-44da1b7343086ee8c817.json",
+					"name" : "pure_pursuit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pure_pursuit_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pure_pursuit_uninstall-7e1c43b499df7f2c905c.json",
+					"name" : "pure_pursuit_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-48cdd7402a5cbf77a22b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_visualizer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_visualizer-e75e56edbc15f2353630.json",
+					"name" : "waypoint_visualizer",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/meric/f1tenth_ws/build/pure_pursuit",
+		"source" : "/home/meric/f1tenth_ws/src/pure_pursuit"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

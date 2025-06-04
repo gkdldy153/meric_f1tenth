@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target vesc_ackermann[0m
+[ 28%] Built target ackermann_to_vesc_node
+[ 57%] Built target vesc_to_odom_node
+[ 71%] [32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/vesc_to_odom.cpp.o[0m

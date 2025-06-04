@@ -1,0 +1,6 @@
+[console_scripts]
+imu_recorder = f1tenth_stack.scripts.record_imu:main
+imu_tf_broadcaster = f1tenth_stack.imu_tf_broadcaster:main
+tf_publisher = f1tenth_stack.tf_publisher:main
+throttle_interpolator = f1tenth_stack.throttle_interpolator:main
+

@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target pure_pursuit[0m
+[ 50%] Built target waypoint_visualizer
+[ 75%] [32mBuilding CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o[0m
+[100%] [32m[1mLinking CXX executable pure_pursuit[0m

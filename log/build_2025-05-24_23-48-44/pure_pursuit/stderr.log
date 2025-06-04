@@ -1,0 +1,7 @@
+[01m[K/home/meric/f1tenth_ws/src/pure_pursuit/src/pure_pursuit.cpp:[m[K In member function ‘[01m[Kvoid PurePursuit::publish_message(double)[m[K’:
+[01m[K/home/meric/f1tenth_ws/src/pure_pursuit/src/pure_pursuit.cpp:243:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclamp[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  243 |     steering_angle = std::[01;31m[Kclamp[m[K(
+      |                           [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/pure_pursuit.dir/build.make:63: CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/pure_pursuit.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

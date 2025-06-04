@@ -1,0 +1,31 @@
+rrt:
+  ros__parameters:
+    waypoints_path: "/home/meric/f1tenth_ws/src/waypoint_generator/src/waypoints_odom.csv"
+    waypoints_path_2nd: "/home/meric/f1tenth_ws/src/waypoint_generator/src/waypoints_odom.csv"
+    scan_topic: "/scan"
+    odom_topic: "/pf/pose/odom"
+    drive_topic: "/ackermann_cmd"
+    interpolation_distance: 0.05
+    velocity_percentage: 0.8
+
+    lane_number: 0
+
+    K_p: 0.5
+    K_p_obstacle: 0.8
+    K_E: 1.0
+    K_H: 0.5
+
+    min_lookahead: 1.5 # for larger track
+    max_lookahead: 2.5 # lookahead when the car is going around max velocity
+    min_lookahead_speed: 3.0
+    max_lookahead_speed: 6.0 # approximately the max velocity
+
+    # For when there is an obstacle
+    velocity_min: 1.0
+    velocity_max: 2.0
+    steering_limit: 25.0
+    cells_per_meter: 20
+
+waypoint_visualizer_node:
+  ros__parameters:
+    waypoints_path: "/home/meric/f1tenth_ws/src/waypoint_generator/src/waypoints_odom.csv"

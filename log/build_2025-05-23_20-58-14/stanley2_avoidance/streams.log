@@ -1,0 +1,34 @@
+[1.297s] Invoking command in '/home/meric/f1tenth_ws/build/stanley2_avoidance': PYTHONPATH=/home/meric/f1tenth_ws/build/stanley2_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meric/f1tenth_ws/install/stanley2_avoidance/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/meric/f1tenth_ws/build/stanley2_avoidance/build --no-deps symlink_data
+[1.779s] running develop
+[2.061s] running egg_info
+[2.062s] creating stanley2_avoidance.egg-info
+[2.062s] writing stanley2_avoidance.egg-info/PKG-INFO
+[2.062s] writing dependency_links to stanley2_avoidance.egg-info/dependency_links.txt
+[2.062s] writing entry points to stanley2_avoidance.egg-info/entry_points.txt
+[2.063s] writing requirements to stanley2_avoidance.egg-info/requires.txt
+[2.063s] writing top-level names to stanley2_avoidance.egg-info/top_level.txt
+[2.066s] writing manifest file 'stanley2_avoidance.egg-info/SOURCES.txt'
+[2.122s] reading manifest file 'stanley2_avoidance.egg-info/SOURCES.txt'
+[2.123s] writing manifest file 'stanley2_avoidance.egg-info/SOURCES.txt'
+[2.192s] running build_ext
+[2.193s] Creating /home/meric/f1tenth_ws/install/stanley2_avoidance/lib/python3.8/site-packages/site.py
+[2.197s] Creating /home/meric/f1tenth_ws/install/stanley2_avoidance/lib/python3.8/site-packages/stanley2-avoidance.egg-link (link to .)
+[2.199s] Installing stanley2_avoidance script to /home/meric/f1tenth_ws/install/stanley2_avoidance/lib/stanley2_avoidance
+[2.199s] 
+[2.200s] Installed /home/meric/f1tenth_ws/build/stanley2_avoidance
+[2.200s] running symlink_data
+[2.200s] creating /home/meric/f1tenth_ws/install/stanley2_avoidance/share/ament_index
+[2.200s] creating /home/meric/f1tenth_ws/install/stanley2_avoidance/share/ament_index/resource_index
+[2.200s] creating /home/meric/f1tenth_ws/install/stanley2_avoidance/share/ament_index/resource_index/packages
+[2.201s] symbolically linking /home/meric/f1tenth_ws/build/stanley2_avoidance/resource/stanley2_avoidance -> /home/meric/f1tenth_ws/install/stanley2_avoidance/share/ament_index/resource_index/packages
+[2.201s] symbolically linking /home/meric/f1tenth_ws/build/stanley2_avoidance/package.xml -> /home/meric/f1tenth_ws/install/stanley2_avoidance/share/stanley2_avoidance
+[2.201s] creating /home/meric/f1tenth_ws/install/stanley2_avoidance/share/stanley2_avoidance/racelines
+[2.201s] creating /home/meric/f1tenth_ws/install/stanley2_avoidance/share/stanley2_avoidance/launch
+[2.202s] symbolically linking /home/meric/f1tenth_ws/build/stanley2_avoidance/launch/sim_stanley_avoidance_launch.py -> /home/meric/f1tenth_ws/install/stanley2_avoidance/share/stanley2_avoidance/launch
+[2.202s] symbolically linking /home/meric/f1tenth_ws/build/stanley2_avoidance/launch/stanley_avoidance_launch.py -> /home/meric/f1tenth_ws/install/stanley2_avoidance/share/stanley2_avoidance/launch
+[2.202s] symbolically linking /home/meric/f1tenth_ws/build/stanley2_avoidance/launch/sim_multi_agent_stanley_avoidance_launch.py -> /home/meric/f1tenth_ws/install/stanley2_avoidance/share/stanley2_avoidance/launch
+[2.202s] symbolically linking /home/meric/f1tenth_ws/build/stanley2_avoidance/launch/stanley_avoidance.rviz -> /home/meric/f1tenth_ws/install/stanley2_avoidance/share/stanley2_avoidance/launch
+[2.202s] creating /home/meric/f1tenth_ws/install/stanley2_avoidance/share/stanley2_avoidance/config
+[2.202s] symbolically linking /home/meric/f1tenth_ws/build/stanley2_avoidance/config/config.yaml -> /home/meric/f1tenth_ws/install/stanley2_avoidance/share/stanley2_avoidance/config
+[2.202s] symbolically linking /home/meric/f1tenth_ws/build/stanley2_avoidance/config/sim_config.yaml -> /home/meric/f1tenth_ws/install/stanley2_avoidance/share/stanley2_avoidance/config
+[2.276s] Invoked command in '/home/meric/f1tenth_ws/build/stanley2_avoidance' returned '0': PYTHONPATH=/home/meric/f1tenth_ws/build/stanley2_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meric/f1tenth_ws/install/stanley2_avoidance/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/meric/f1tenth_ws/build/stanley2_avoidance/build --no-deps symlink_data

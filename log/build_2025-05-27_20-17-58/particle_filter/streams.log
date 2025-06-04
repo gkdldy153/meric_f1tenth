@@ -1,0 +1,25 @@
+[3.366s] Invoking command in '/home/meric/f1tenth_ws/src/particle_filter': PYTHONPATH=/home/meric/f1tenth_ws/build/particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meric/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/particle_filter build --build-base /home/meric/f1tenth_ws/build/particle_filter/build install --record /home/meric/f1tenth_ws/build/particle_filter/install.log --install-scripts $base/lib/particle_filter --single-version-externally-managed install_data
+[4.297s] running egg_info
+[4.298s] writing ../../build/particle_filter/particle_filter.egg-info/PKG-INFO
+[4.299s] writing dependency_links to ../../build/particle_filter/particle_filter.egg-info/dependency_links.txt
+[4.299s] writing entry points to ../../build/particle_filter/particle_filter.egg-info/entry_points.txt
+[4.300s] writing requirements to ../../build/particle_filter/particle_filter.egg-info/requires.txt
+[4.300s] writing top-level names to ../../build/particle_filter/particle_filter.egg-info/top_level.txt
+[4.419s] reading manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'
+[4.420s] writing manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'
+[4.420s] running build
+[4.420s] running build_py
+[4.420s] copying particle_filter/particle_filter.py -> /home/meric/f1tenth_ws/build/particle_filter/build/lib/particle_filter
+[4.421s] running install
+[4.421s] running install_lib
+[4.430s] copying /home/meric/f1tenth_ws/build/particle_filter/build/lib/particle_filter/particle_filter.py -> /home/meric/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages/particle_filter
+[4.430s] byte-compiling /home/meric/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages/particle_filter/particle_filter.py to particle_filter.cpython-38.pyc
+[4.443s] running install_data
+[4.443s] copying launch/localize_launch.py -> /home/meric/f1tenth_ws/install/particle_filter/share/particle_filter/launch
+[4.443s] running install_egg_info
+[4.451s] removing '/home/meric/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages/particle_filter-0.2.0-py3.8.egg-info' (and everything under it)
+[4.452s] Copying ../../build/particle_filter/particle_filter.egg-info to /home/meric/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages/particle_filter-0.2.0-py3.8.egg-info
+[4.457s] running install_scripts
+[4.512s] Installing particle_filter script to /home/meric/f1tenth_ws/install/particle_filter/lib/particle_filter
+[4.512s] writing list of installed files to '/home/meric/f1tenth_ws/build/particle_filter/install.log'
+[5.206s] Invoked command in '/home/meric/f1tenth_ws/src/particle_filter' returned '0': PYTHONPATH=/home/meric/f1tenth_ws/build/particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meric/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/particle_filter build --build-base /home/meric/f1tenth_ws/build/particle_filter/build install --record /home/meric/f1tenth_ws/build/particle_filter/install.log --install-scripts $base/lib/particle_filter --single-version-externally-managed install_data

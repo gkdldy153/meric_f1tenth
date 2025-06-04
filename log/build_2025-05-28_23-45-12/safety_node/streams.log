@@ -1,0 +1,28 @@
+[0.099s] Invoking command in '/home/meric/f1tenth_ws/build/safety_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/particle_filter:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/home/meric/install/f1tenth_stack:/home/meric/install/joy_teleop:/home/meric/install/mouse_teleop:/home/meric/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/meric/f1tenth_ws/build/safety_node -- -j6 -l6
+[0.252s] [100%] Built target safety_node
+[0.793s] Invoked command in '/home/meric/f1tenth_ws/build/safety_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/particle_filter:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/home/meric/install/f1tenth_stack:/home/meric/install/joy_teleop:/home/meric/install/mouse_teleop:/home/meric/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/meric/f1tenth_ws/build/safety_node -- -j6 -l6
+[0.799s] Invoking command in '/home/meric/f1tenth_ws/build/safety_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/particle_filter:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/home/meric/install/f1tenth_stack:/home/meric/install/joy_teleop:/home/meric/install/mouse_teleop:/home/meric/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/meric/f1tenth_ws/build/safety_node
+[1.358s] -- Install configuration: ""
+[1.358s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/lib/safety_node/safety_node
+[1.359s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/share/safety_node/environment/pythonpath.sh
+[1.359s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/share/safety_node/environment/pythonpath.dsv
+[1.359s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/lib/python3.8/site-packages/safety_node
+[1.359s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/lib/python3.8/site-packages/safety_node/__init__.py
+[1.359s] Listing '/home/meric/f1tenth_ws/install/safety_node/lib/python3.8/site-packages/safety_node'...
+[1.360s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/lib/safety_node/safety_node.py
+[1.364s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/share/ament_index/resource_index/package_run_dependencies/safety_node
+[1.365s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/share/ament_index/resource_index/parent_prefix_path/safety_node
+[1.365s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/share/safety_node/environment/ament_prefix_path.sh
+[1.365s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/share/safety_node/environment/ament_prefix_path.dsv
+[1.365s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/share/safety_node/environment/path.sh
+[1.365s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/share/safety_node/environment/path.dsv
+[1.365s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/share/safety_node/local_setup.bash
+[1.366s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/share/safety_node/local_setup.sh
+[1.366s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/share/safety_node/local_setup.zsh
+[1.366s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/share/safety_node/local_setup.dsv
+[1.366s] -- Installing: /home/meric/f1tenth_ws/install/safety_node/share/safety_node/package.dsv
+[1.366s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/share/ament_index/resource_index/packages/safety_node
+[1.367s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/share/safety_node/cmake/safety_nodeConfig.cmake
+[1.368s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/share/safety_node/cmake/safety_nodeConfig-version.cmake
+[1.368s] -- Up-to-date: /home/meric/f1tenth_ws/install/safety_node/share/safety_node/package.xml
+[1.375s] Invoked command in '/home/meric/f1tenth_ws/build/safety_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/particle_filter:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/home/meric/install/f1tenth_stack:/home/meric/install/joy_teleop:/home/meric/install/mouse_teleop:/home/meric/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/meric/f1tenth_ws/build/safety_node

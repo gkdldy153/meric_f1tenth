@@ -1,0 +1,12 @@
+[1.230s] Invoking command in '/home/meric/f1tenth_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/home/meric/install/f1tenth_stack:/home/meric/install/joy_teleop:/home/meric/install/mouse_teleop:/home/meric/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/meric/f1tenth_ws/build/pure_pursuit -- -j6 -l6
+[1.380s] [35m[1mScanning dependencies of target pure_pursuit[0m
+[1.425s] [ 50%] Built target waypoint_visualizer
+[1.485s] [ 75%] [32mBuilding CXX object CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o[0m
+[18.396s] [100%] [32m[1mLinking CXX executable pure_pursuit[0m
+[19.073s] /usr/bin/ld: CMakeFiles/pure_pursuit.dir/src/pure_pursuit.cpp.o: in function `PurePursuit::odom_callback(std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > const>)':
+[19.073s] pure_pursuit.cpp:(.text+0x2fac): undefined reference to `PurePursuit::get_waypoint()'
+[19.073s] collect2: error: ld returned 1 exit status
+[19.077s] make[2]: *** [CMakeFiles/pure_pursuit.dir/build.make:186: pure_pursuit] Error 1
+[19.078s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/pure_pursuit.dir/all] Error 2
+[19.078s] make: *** [Makefile:141: all] Error 2
+[19.084s] Invoked command in '/home/meric/f1tenth_ws/build/pure_pursuit' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/meric/f1tenth_ws/install/f1tenth_stack:/home/meric/f1tenth_ws/install/joy_teleop:/home/meric/f1tenth_ws/install/stanley_avoidance:/home/meric/f1tenth_ws/install/stanley2_avoidance:/home/meric/f1tenth_ws/install/slam:/home/meric/f1tenth_ws/install/mouse_teleop:/home/meric/f1tenth_ws/install/key_teleop:/home/meric/install/f1tenth_stack:/home/meric/install/joy_teleop:/home/meric/install/mouse_teleop:/home/meric/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/meric/f1tenth_ws/build/pure_pursuit -- -j6 -l6

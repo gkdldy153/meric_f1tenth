@@ -1,0 +1,82 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for C++ include unistd.h
+-- Looking for C++ include unistd.h - found
+-- Looking for C++ include stdint.h
+-- Looking for C++ include stdint.h - found
+-- Looking for C++ include inttypes.h
+-- Looking for C++ include inttypes.h - found
+-- Looking for C++ include sys/types.h
+-- Looking for C++ include sys/types.h - found
+-- Looking for C++ include sys/stat.h
+-- Looking for C++ include sys/stat.h - found
+-- Looking for C++ include fnmatch.h
+-- Looking for C++ include fnmatch.h - found
+-- Looking for C++ include stddef.h
+-- Looking for C++ include stddef.h - found
+-- Check size of uint32_t
+-- Check size of uint32_t - done
+-- Looking for strtoll
+-- Looking for strtoll - found
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Check size of pthread_rwlock_t
+-- Check size of pthread_rwlock_t - done
+-- Performing Test COMPILER_SUPPORTS_CXX11
+-- Performing Test COMPILER_SUPPORTS_CXX11 - Success
+-- Performing Test COMPILER_SUPPORTS_CXX0X
+-- Performing Test COMPILER_SUPPORTS_CXX0X - Success
+-- Found CUDA: /usr/local/cuda (found version "11.4") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/meric/f1tenth_ws/build/range_lib
+[35m[1mScanning dependencies of target gflags_static[0m
+[35m[1mScanning dependencies of target gflags_nothreads_static[0m
+[ 25%] [32mBuilding CXX object vendor/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.o[0m
+[ 25%] [32mBuilding CXX object vendor/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.o[0m
+[ 25%] [32mBuilding CXX object vendor/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.o[0m
+[ 33%] [32mBuilding CXX object vendor/gflags/CMakeFiles/gflags_static.dir/src/gflags.cc.o[0m
+[ 41%] [32mBuilding CXX object vendor/gflags/CMakeFiles/gflags_static.dir/src/gflags_reporting.cc.o[0m
+[ 50%] [32mBuilding CXX object vendor/gflags/CMakeFiles/gflags_static.dir/src/gflags_completions.cc.o[0m
+[ 58%] [32m[1mLinking CXX static library ../../lib/libgflags_nothreads.a[0m
+[ 66%] [32m[1mLinking CXX static library ../../lib/libgflags.a[0m
+[ 66%] Built target gflags_nothreads_static
+[ 66%] Built target gflags_static
+[ 75%] [34m[1mBuilding NVCC (Device) object CMakeFiles/range_lib.dir/includes/range_lib_generated_kernels.cu.o[0m
+[35m[1mScanning dependencies of target range_lib[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/range_lib.dir/main.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/range_lib.dir/vendor/lodepng/lodepng.cpp.o[0m
+[100%] [32m[1mLinking CXX executable bin/range_lib[0m
+[100%] Built target range_lib
+-- Install configuration: "Release"
+-- Installing: /home/meric/f1tenth_ws/install/range_lib/lib/libgflags.a
+-- Installing: /home/meric/f1tenth_ws/install/range_lib/lib/libgflags_nothreads.a
+-- Installing: /home/meric/f1tenth_ws/install/range_lib/include/gflags/gflags.h
+-- Installing: /home/meric/f1tenth_ws/install/range_lib/include/gflags/gflags_declare.h
+-- Installing: /home/meric/f1tenth_ws/install/range_lib/include/gflags/gflags_completions.h
+-- Installing: /home/meric/f1tenth_ws/install/range_lib/include/gflags/gflags_gflags.h
+-- Installing: /home/meric/f1tenth_ws/install/range_lib/lib/cmake/gflags/gflags-config.cmake
+-- Installing: /home/meric/f1tenth_ws/install/range_lib/lib/cmake/gflags/gflags-config-version.cmake
+-- Installing: /home/meric/f1tenth_ws/install/range_lib/lib/cmake/gflags/gflags-targets.cmake
+-- Installing: /home/meric/f1tenth_ws/install/range_lib/bin/gflags_completions.sh
+-- Installing: /home/meric/f1tenth_ws/install/range_lib/lib/pkgconfig/gflags.pc
+-- Installing: /home/meric/.cmake/packages/gflags/ba55e8eeaa041bdaca5b2698354619ca
