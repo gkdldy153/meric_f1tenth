@@ -5,15 +5,10 @@
 # Adviser: Prof.SKo
 
 
-https://user-images.githubusercontent.com/43485866/231013515-00d6f492-87c0-4cf6-8257-f16cb2daadb6.mp4
 
 ## Demo Video 1
-<video width="480" controls>
-  <source src="videos/video1.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/d008fc9e-4a08-45e1-8381-9c0421efc6bb
 
 ## Demo Video 2
-<video width="480" controls>
-  <source src="videos/video.mp4" type="video/mp4">
-</video>
+
+https://github.com/user-attachments/assets/e71f4aec-bf9b-4daa-bdd0-95156baac795
