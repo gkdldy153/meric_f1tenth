@@ -4,7 +4,7 @@
 # Members: 195542_JeongMinSeo, 191200_ChoiHyeonSeo, 191964_YunHyunJun, 201730_KimChiHyun
 # Adviser: Prof.SKo
 
-#Usage Guide - Commands file 참조.
+# Usage Guide - Commands file 참조.
 
 ## Demo Video 1
 https://github.com/user-attachments/assets/e71f4aec-bf9b-4daa-bdd0-95156baac795
